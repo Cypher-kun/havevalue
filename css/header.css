@@ -1,9 +1,16 @@
 .header {
-    height: 200px;
+    height: 76px;
+    padding: 0 0 21px;
     position: relative;
 }
     .header__logo {
         position: absolute;
-        left: 10px;
-        top: 10px;
+        left: 1px;
+        top: 12px;
+    }
+
+    .header__nav {
+        position: absolute;
+        top: 22px;
+        right: -11px;
     }

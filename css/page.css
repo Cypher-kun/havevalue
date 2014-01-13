@@ -1,18 +1,27 @@
 .page {
 
 }
-    .page__header {
+    .page__head {
+        background: #323232;
+    }
+        .page__head__header {
+            width: 932px;
+            padding: 0 41px;
+            margin: 0 auto;
+        }
 
+    .page__container {
+        background: #fff;
+        width: 1014px;
+        margin: -21px auto 0;
+        border-radius: 8px 8px 0 0;
     }
 
-    .page__nav {
+        .page__container__body {
+            padding: 0 41px;
+        }
 
-    }
-
-    .page__body {
-
-    }
-
-    .page__footer {
-
-    }
+        .page__container__footer {
+            padding: 0 41px;
+            background: #323232;
+        }

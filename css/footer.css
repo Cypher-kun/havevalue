@@ -1,9 +1,15 @@
 .footer {
-    height: 100px;
+    height: 48px;
     position: relative;
 }
     .footer__copyright {
         position: absolute;
+        top: 17px;
         left: 0;
-        top: 10px;
+    }
+
+    .footer__langs {
+        position: absolute;
+        top: 17px;
+        right: 12px;
     }

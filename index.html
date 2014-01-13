@@ -1,14 +1,10 @@
-<?php include 'functions.php'; ?>
 <!DOCTYPE html>
-<html class="<?php echo getOS();?> <?php echo getBrowser(); ?> no-js" lang="ru" itemscope itemtype="http://schema.org/[%type%]" xmlns:og="http://ogp.me/ns#">
+<html class="no-js" lang="ru" itemscope itemtype="http://schema.org/[%type%]" xmlns:og="http://ogp.me/ns#">
     <head>
 
         <meta charset="utf-8">
 
         <meta name="viewport" content="width=device-width">
-        <!-- Uncomment in case of responsive design and delete tag above
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        -->
         <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
 
         <link rel="stylesheet" href="css/_style.css">
@@ -56,61 +52,27 @@
         <div class="page">
 
 
-            <div class="page__header">
-                <div class="region">
+            <div class="page__head">
+                <div class="page__head__header">
+
                     <header class="header">
 
                         <div class="header__logo">
                             <a class="logo" href="#"></a>
                         </div>
 
+                        <nav class="header__nav">
+                            TO DO: .nav should be here
+                        </nav>
+
                     </header>
 
-                </div>
-            </div><!-- /page__header -->
+                </div><!-- /page__header  -->
+            </div><!-- /page__head -->
 
+            <div class="page__container">
 
-
-            <nav class="page__nav">
-                <div class="region">
-
-                    <ul class="nav">
-                        <li class="nav__item">
-                            <a class="nav__item__link" href="#"></a>
-                        </li><!--
-                     --><li class="nav__item">
-                            <a class="nav__item__link" href="#"></a>
-                        </li><!--
-                     --><li class="nav__item">
-                            <a class="nav__item__link" href="#"></a>
-                        </li><!--
-                     --><li class="nav__item">
-                            <a class="nav__item__link" href="#"></a>
-                        </li><!--
-                     --><li class="nav__item">
-                            <a class="nav__item__link" href="#"></a>
-                        </li><!--
-                     --><li class="nav__item">
-                            <a class="nav__item__link" href="#"></a>
-                        </li><!--
-                     --><li class="nav__item">
-                            <a class="nav__item__link" href="#"></a>
-                        </li><!--
-                     --><li class="nav__item">
-                            <a class="nav__item__link" href="#"></a>
-                        </li><!--
-                     --><li class="nav__item">
-                            <a class="nav__item__link" href="#"></a>
-                        </li>
-                    </ul>
-
-                </div>
-            </nav><!-- page__nav -->
-
-
-
-            <div class="page__body">
-                <div class="region">
+                <div class="page__container__body">
                     <div class="body">
 
                         <div class="body__sidebar">
@@ -149,11 +111,11 @@
                                     <input class="field field_wide" type="text" placeholder="field_wide">
                                     <input class="field field_narrow" type="text" placeholder="field_narrow">
                                     <div class="button button_large">button_large</div>
-
+    <!--
                                     <div class="video">
                                         <iframe class="video__iframe" src="//www.youtube.com/embed/P3xKbPooKAo" frameborder="0" allowfullscreen></iframe>
                                     </div>
-
+    -->
                                     <table class="table">
                                         <thead>
                                             <tr>
@@ -211,24 +173,23 @@
                         </div>
 
                     </div>
-                </div>
-            </div><!-- /page__body -->
+                </div><!-- /page__container__body -->
 
 
 
-            <div class="page__footer">
-                <div class="region">
+                <div class="page__container__footer">
                     <footer class="footer">
                         <div class="footer__copyright">
-                            <div class="copyright">
-                                ©
-                            </div>
+                            TO DO: .copyright should be here
+                        </div>
+                        <div class="footer__langs">
+                            TO DO: .langs should be here
                         </div>
                     </footer>
-                </div>
-            </div><!-- /page__footer -->
+                </div><!-- /page__footer -->
 
 
+            </div><!-- /page__container-->
 
         </div><!-- /page -->
 
@@ -237,8 +198,7 @@
 
 
         <!-- Scripts -->
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <!--/Scripts -->
