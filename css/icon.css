@@ -3,11 +3,93 @@
     display: inline-block;
     vertical-align: middle;
     top: -1px;
-    background: url(../images/sprite.png) no-repeat;
 }
 
-.icon_some-icon-title {
-    width: 16px;
-    height: 16px;
-    background-position: -100px -100px;
+.icon_graph {
+    width: 31px;
+    height: 31px;
+    background: url(../images/icon_graph.png) no-repeat;
 }
+
+.icon_bitcoin {
+    width: 33px;
+    height: 33px;
+    background: url(../images/icon_bitcoin.png) no-repeat;
+}
+
+.icon_paper {
+    width: 25px;
+    height: 28px;
+    background: url(../images/icon_paper.png) no-repeat;
+}
+
+.icon_home {
+    width: 13px;
+    height: 10px;
+    background: url(../images/icon_home.png) no-repeat;
+}
+
+.icon_geo {
+    width: 15px;
+    height: 22px;
+    background: url(../images/icon_geo.png) no-repeat;
+}
+
+.icon_phone {
+    width: 19px;
+    height: 18px;
+    background: url(../images/icon_phone.png) no-repeat;
+}
+
+.icon_at {
+    width: 20px;
+    height: 20px;
+    background: url(../images/icon_at.png) no-repeat;
+}
+
+.icon_facebook {
+    width: 58px;
+    height: 58px;
+    background: url(../images/icon_facebook.png) no-repeat;
+}
+
+.icon_vk {
+    width: 58px;
+    height: 58px;
+    background: url(../images/icon_vk.png) no-repeat;
+}
+
+.icon_twitter {
+    width: 58px;
+    height: 58px;
+    background: url(../images/icon_twitter.png) no-repeat;
+}
+
+.icon_arrow-left {
+    width: 26px;
+    height: 26px;
+    background: url(../images/icon_arrow-left.png) no-repeat;
+}
+
+.icon_arrow-left:hover {
+    background: url(../images/icon_arrow-left-hover.png) no-repeat;
+}
+
+.icon_arrow-left:active {
+    background: url(../images/icon_arrow-left-active.png) no-repeat;
+}
+
+.icon_arrow-right {
+    width: 26px;
+    height: 26px;
+    background: url(../images/icon_arrow-right.png) no-repeat;
+}
+
+.icon_arrow-right:hover {
+    background: url(../images/icon_arrow-right-hover.png) no-repeat;
+}
+
+.icon_arrow-right:active {
+    background: url(../images/icon_arrow-right-active.png) no-repeat;
+}
+
