@@ -1,16 +1,21 @@
 .header {
     height: 76px;
-    padding: 0 0 21px;
     position: relative;
 }
     .header__logo {
         position: absolute;
-        left: -7px;
+        left: -8px;
         top: 13px;
     }
 
     .header__nav {
         position: absolute;
         top: 20px;
-        left: 144px;
+        left: 147px;
+    }
+
+    .header__userspace {
+        position: absolute;
+        right: -23px;
+        top: 17px;
     }

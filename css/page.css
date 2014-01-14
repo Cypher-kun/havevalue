@@ -3,6 +3,7 @@
 }
     .page__head {
         background: #323232;
+        padding: 0 0 21px;
     }
         .page__head__header {
             width: 932px;

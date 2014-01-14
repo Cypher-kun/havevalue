@@ -1,0 +1,27 @@
+.user {
+    text-align: right;
+}
+    .user__name {
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 16px;
+        color: #4e9fcf;
+    }
+        .user__name__link {
+
+        }
+
+    .user__logout {
+        margin: 5px 0 0;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 15px;
+        color: #fff;
+    }
+        .user__logout__link {
+
+        }
+
+        .user__logout__link:hover {
+            color: #4e9fcf;
+        }
