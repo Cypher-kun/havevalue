@@ -17,6 +17,7 @@
     }
         .news__body__featured-image {
             float: left;
+            width: 284px;
             margin: 6px 20px 10px 0;
         }
 
@@ -25,11 +26,29 @@
         }
 
     .news__footer {
-
+        margin: 15px 0 0;
     }
-        .news__footer__likes__source {
-            margin: 15px 0 0;
+        .news__footer__source {
+
         }
+
         .news__footer__likes {
             margin: 15px 0 0;
         }
+
+
+/* _feed-item */
+
+.news_feed-item {
+
+}
+
+.news_feed-item .news__body {
+    margin-top: 12px;
+}
+
+.news_feed-item .news__body__featured-image {
+    width: 116px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
