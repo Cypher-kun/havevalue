@@ -5,12 +5,12 @@
 }
     .header__logo {
         position: absolute;
-        left: 1px;
-        top: 12px;
+        left: -7px;
+        top: 13px;
     }
 
     .header__nav {
         position: absolute;
-        top: 22px;
-        right: -11px;
+        top: 20px;
+        left: 144px;
     }

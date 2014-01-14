@@ -1,8 +1,6 @@
 .icon {
-    position: relative;
     display: inline-block;
     vertical-align: middle;
-    top: -1px;
 }
 
 .icon_graph {
