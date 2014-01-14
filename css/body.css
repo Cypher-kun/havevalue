@@ -1,8 +1,13 @@
 .body {
 
 }
-    .body__content {
+    .body__header {
 
+     }
+
+    .body__content {
+        margin: 33px 0 0;
+        min-height: 250px;
     }
 
         .body__content__sidebar {
@@ -17,3 +22,7 @@
             vertical-align: top;
             width: 674px;
         }
+
+    .body__header__pushed {
+        padding: 0 0 0 46px;
+    }

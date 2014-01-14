@@ -1,0 +1,22 @@
+.body-head {
+    position: relative;
+}
+
+    .body-head__title {
+
+    }
+
+    .body-head__breadcrumbs {
+        margin: 12px 0 0;
+    }
+
+    .body-head__icon {
+        position: absolute;
+        left: 2px;
+        top: -5px;
+    }
+
+
+.body-head_pushed {
+    padding-left: 46px;
+}

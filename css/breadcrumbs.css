@@ -1,8 +1,9 @@
 .breadcrumbs {
     font-weight: bold;
-    font-size: 12px;
-    line-height: 14px;
+    font-size: 13px;
+    line-height: 15px;
     color: #b6b6b6;
+    cursor: text;
 }
 
     .breadcrumbs__item {
@@ -20,9 +21,15 @@
         }
             .breadcrumbs__item__link__icon {
                 display: inline-block;
-                vertical-align: middle;
-                margin-right: 11px;
+                vertical-align: middle;;
+                padding: 0 10px 0 0;
+                position: relative;
+                top: 1px
             }
+
+        .breadcrumbs__item__separator {
+            cursor: default;
+        }
 
         .breadcrumbs__item__current {
             color: #242424;

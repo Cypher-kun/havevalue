@@ -135,8 +135,69 @@
                 <div class="page__container__body">
                     <div class="body">
                         <div class="body__header">
-                            <h1 class="title title_large">Page title</h1>
+
+
+                            <header class="body-head">
+                                <div class="body-head__title">
+                                    <h1 class="title title_large">Простая шапка контента</h1>
+                                </div>
+                                <div class="body-head__breadcrumbs">
+                                    <ul class="breadcrumbs">
+                                        <li class="breadcrumbs__item">
+                                            <a class="breadcrumbs__item__link" href="#"><div class="breadcrumbs__item__link__icon"><i class="icon icon_home"></i></div>Главная</a>
+                                        </li><!--
+                                     --><li class="breadcrumbs__item">
+                                            /
+                                        </li><!--
+                                     --><li class="breadcrumbs__item">
+                                            <a class="breadcrumbs__item__link" href="#">Новости</a>
+                                        </li><!--
+                                     --><li class="breadcrumbs__item">
+                                            /
+                                        </li><!--
+                                     --><li class="breadcrumbs__item">
+                                            <div class="breadcrumbs__item__current">Развернутая новость</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </header>
+
+                            <br><!-- or: -->
+
+                            <header class="body-head body-head_pushed">
+                                <div class="body-head__title">
+                                    <h1 class="title title_large">Шапка с отступом (см. модификатор .body-head_pushed) и чайлд с иконкой</h1>
+                                </div>
+                                <div class="body-head__breadcrumbs">
+                                    <ul class="breadcrumbs">
+                                        <li class="breadcrumbs__item">
+                                            <a class="breadcrumbs__item__link" href="#">
+                                                <div class="breadcrumbs__item__link__icon">
+                                                    <i class="icon icon_home"></i>
+                                                </div><!--
+                                             -->Главная
+                                            </a>
+                                        </li><!--
+                                     --><li class="breadcrumbs__item">
+                                            <div class="breadcrumbs__item__separator">/</div>
+                                        </li><!--
+                                     --><li class="breadcrumbs__item">
+                                            <a class="breadcrumbs__item__link" href="#">Новости</a>
+                                        </li><!--
+                                     --><li class="breadcrumbs__item">
+                                            <div class="breadcrumbs__item__separator">/</div>
+                                        </li><!--
+                                     --><li class="breadcrumbs__item">
+                                            <div class="breadcrumbs__item__current">Развернутая новость</div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="body-head__icon">
+                                    <i class="icon icon_paper"></i>
+                                </div>
+                            </header>
                         </div>
+
                         <div class="body__content">
 
                             <div class="body__content__sidebar">
@@ -153,7 +214,7 @@
                             </div><!--
                          --><div class="body__content__main">
 
-                                main area
+                                main content
 
                             </div>
 
