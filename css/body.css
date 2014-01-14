@@ -1,15 +1,19 @@
 .body {
 
 }
-    .body__sidebar {
-        display: inline-block;
-        vertical-align: top;
-        width: 213px;
-        margin: 0 45px 0 0;
+    .body__content {
+
     }
 
-    .body__content {
-        display: inline-block;
-        vertical-align: top;
-        width: 674px;
-    }
+        .body__content__sidebar {
+            display: inline-block;
+            vertical-align: top;
+            width: 213px;
+            margin: 0 45px 0 0;
+        }
+
+        .body__content__main {
+            display: inline-block;
+            vertical-align: top;
+            width: 674px;
+        }
