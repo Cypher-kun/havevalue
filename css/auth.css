@@ -1,0 +1,25 @@
+.auth {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #6f6e6e;
+}
+
+    .auth__item {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 4px;
+    }
+
+    .auth__item:first-child {
+        margin-left: 0;
+    }
+
+        .auth__item__link {
+            color: #fff;
+        }
+
+        .auth__item__link_active,
+        .auth__item__link:hover {
+            color: #4e9fcf;
+        }
