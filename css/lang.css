@@ -1,0 +1,22 @@
+.lang {
+    font-size: 13px;
+    color: #999;
+}
+
+    .lang__item {
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+        .lang__item__link {
+
+        }
+
+        .lang__item__link_active {
+            color: #fff;
+        }
+
+    .lang__separator {
+        display: inline-block;
+        vertical-align: middle;
+    }

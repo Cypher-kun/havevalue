@@ -1,9 +1,32 @@
 .nav {
-
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
 }
     .nav__item {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 55px;
+    }
 
+    .nav__item:first-child {
+        margin-left: 0;
     }
         .nav__item__link {
-
+            display: block;
         }
+
+        .nav__item__link_active {
+            color: #4e9fcf;
+        }
+
+            .nav__item__link__icon {
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 11px;
+            }
+
+            .nav__item__link__title {
+                display: inline-block;
+                vertical-align: middle;
+            }

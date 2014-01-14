@@ -23,6 +23,12 @@
     background: url(../images/icon_paper.png) no-repeat;
 }
 
+.icon_notebook {
+    width: 26px;
+    height: 29px;
+    background: url(../images/icon_notebook.png) no-repeat;
+}
+
 .icon_home {
     width: 13px;
     height: 10px;
