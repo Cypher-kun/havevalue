@@ -1,0 +1,29 @@
+.breadcrumbs {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    color: #b6b6b6;
+}
+
+    .breadcrumbs__item {
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 4px;
+    }
+
+    .breadcrumbs__item:first-child {
+        margin-left: 0;
+    }
+
+        .breadcrumbs__item__link {
+            color: #737881;
+        }
+            .breadcrumbs__item__link__icon {
+                display: inline-block;
+                vertical-align: middle;
+                margin-right: 11px;
+            }
+
+        .breadcrumbs__item__current {
+            color: #242424;
+        }
