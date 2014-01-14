@@ -1,0 +1,35 @@
+.news {
+
+}
+    .news__header {
+
+    }
+        .news__header__date {
+
+        }
+
+        .news__header__title {
+            margin: 3px 0 0;
+        }
+
+    .news__body {
+        margin: 20px 0 0;
+    }
+        .news__body__featured-image {
+            float: left;
+            margin: 6px 20px 10px 0;
+        }
+
+        .new__body__content {
+
+        }
+
+    .news__footer {
+
+    }
+        .news__footer__likes__source {
+            margin: 15px 0 0;
+        }
+        .news__footer__likes {
+            margin: 15px 0 0;
+        }

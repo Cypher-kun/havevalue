@@ -39,15 +39,12 @@
 }
 
 .wysiwyg a {
-    color: #999;
+    color: #42708c;
+}
+
+.wysiwyg a:hover {
     text-decoration: underline;
 }
-
-.wysiwyg a:hover,
-.wysiwyg a:focus {
-    text-decoration: none;
-}
-
 
 .wysiwyg hr {
     height: 0;

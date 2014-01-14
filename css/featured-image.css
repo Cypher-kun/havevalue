@@ -1,0 +1,8 @@
+.featured-image {
+    display: block;
+}
+
+    .featured-image__file {
+        width: 282px;
+        height: auto;
+    }
