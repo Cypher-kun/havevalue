@@ -7,17 +7,18 @@
     .lang__item {
         display: inline-block;
         vertical-align: middle;
+        margin-left: 4px;
+    }
+
+    .lang__item:first-child {
+        margin-left: 0;
     }
 
         .lang__item__link {
 
         }
 
-        .lang__item__link_active {
+        .lang__item__link_active,
+        .lang__item__link:hover {
             color: #fff;
         }
-
-    .lang__separator {
-        display: inline-block;
-        vertical-align: middle;
-    }
