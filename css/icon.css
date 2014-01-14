@@ -72,28 +72,28 @@
 .icon_arrow-left {
     width: 26px;
     height: 26px;
-    background: url(../images/icon_arrow-left.png) no-repeat;
+    background: url(../images/arrows.png) no-repeat left top;
 }
 
 .icon_arrow-left:hover {
-    background: url(../images/icon_arrow-left-hover.png) no-repeat;
+    background-position: left center ;
 }
 
 .icon_arrow-left:active {
-    background: url(../images/icon_arrow-left-active.png) no-repeat;
+    background-position: left bottom ;
 }
 
 .icon_arrow-right {
     width: 26px;
     height: 26px;
-    background: url(../images/icon_arrow-right.png) no-repeat;
+    background: url(../images/arrows.png) no-repeat right top;
 }
 
 .icon_arrow-right:hover {
-    background: url(../images/icon_arrow-right-hover.png) no-repeat;
+    background-position: right center;
 }
 
 .icon_arrow-right:active {
-    background: url(../images/icon_arrow-right-active.png) no-repeat;
+    background-position: right bottom;
 }
 
