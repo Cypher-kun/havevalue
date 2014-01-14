@@ -6,8 +6,8 @@
 }
 
 .icon_graph {
-    width: 31px;
-    height: 31px;
+    width: 33px;
+    height: 33px;
     background: url(../images/icon_graph.png) no-repeat;
 }
 
@@ -18,14 +18,14 @@
 }
 
 .icon_paper {
-    width: 25px;
-    height: 28px;
+    width: 33px;
+    height: 33px;
     background: url(../images/icon_paper.png) no-repeat;
 }
 
 .icon_notebook {
-    width: 26px;
-    height: 29px;
+    width: 33px;
+    height: 33px;
     background: url(../images/icon_notebook.png) no-repeat;
 }
 
@@ -36,20 +36,20 @@
 }
 
 .icon_geo {
-    width: 15px;
+    width: 22px;
     height: 22px;
     background: url(../images/icon_geo.png) no-repeat;
 }
 
 .icon_phone {
-    width: 19px;
-    height: 18px;
+    width: 22px;
+    height: 22px;
     background: url(../images/icon_phone.png) no-repeat;
 }
 
 .icon_at {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
     background: url(../images/icon_at.png) no-repeat;
 }
 
@@ -59,10 +59,10 @@
     background: url(../images/icon_facebook.png) no-repeat;
 }
 
-.icon_vk {
+.icon_vkontakte {
     width: 58px;
     height: 58px;
-    background: url(../images/icon_vk.png) no-repeat;
+    background: url(../images/icon_vkontakte.png) no-repeat;
 }
 
 .icon_twitter {
