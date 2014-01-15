@@ -1,18 +1,40 @@
 .form {
-    text-align: center;
+
 }
-    .form__row {
-        margin: 26px 0 0;
+    .form__body {
+        
     }
 
-    .form__row:first-child {
-        margin-top: 0;
-    }
-
-    .form__row_rules {
-        margin-top: 81px;
-    }
+        .form__body__row {
+            margin: 23px 0 0;
+        }
+            .form__body__row__item {
+                display: inline-block;
+                vertical-align: top;
+                width: 100%;
+                text-align: left;
+            }
     
-    .form__row_submit {
-        margin-top: 38px;
-    }
+            .form__body__row__item_content-width {
+                width: auto;
+            }
+    
+            .form__body__row__item_middle-width {
+                width: 359px;
+            }
+    
+        .form__body__row:first-child {
+            margin-top: 0;
+        }
+    
+        .form__body__row_center {
+            text-align: center;
+        }
+    
+        .form__body__row_rules {
+            margin-top: 81px;
+        }
+    
+        .form__body__row_submit {
+            margin-top: 38px;
+        }

@@ -7,7 +7,7 @@
     text-align: center;
     height: 43px;
     line-height: 43px;
-    padding: 0 56px;
+    padding: 0 22px;
     border: 1px solid #83ab54;
     background: #a2bc64;
     border-radius: 8px;
@@ -26,4 +26,8 @@
 
 .button_full-width {
     width: 100%;
+}
+
+.button_middle {
+    width: 248px;
 }

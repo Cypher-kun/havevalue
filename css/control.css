@@ -1,5 +1,6 @@
 .control {
-
+    display: inline-block;
+    vertical-align: top;
 }
     .control__input {
         display: none;
