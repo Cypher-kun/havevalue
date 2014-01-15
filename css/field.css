@@ -11,6 +11,7 @@
     .field__input {
         outline: none;
         -webkit-box-sizing: border-box;
+           -moz-box-sizing: border-box;
                 box-sizing: border-box;
         display: inline-block;
         vertical-align: top;
