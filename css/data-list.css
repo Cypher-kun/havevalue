@@ -1,0 +1,33 @@
+.data-list {
+    font-size: 13px;
+    line-height: 15px;
+    color: #252626;
+}
+
+    .data-list__item {
+        margin-top: 10px;
+
+    }
+    
+    .data-list__item:first-child {
+        margin-top: 0;
+    }    
+        .data-list__item__icon {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 10px;
+            position: relative;
+            top: -1px;
+        }
+
+        .data-list__item__title {
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 4px;
+        }
+
+        .data-list__item__value {
+            font-weight: bold;
+            display: inline-block;
+            vertical-align: middle;
+        }
