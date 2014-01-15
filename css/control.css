@@ -1,0 +1,32 @@
+.control {
+
+}
+    .control__input {
+        display: none;
+    }
+
+    .control__label {
+        padding: 0 0 0 14px;
+        color: #2a2a2a;
+    }
+
+    .control__icon {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+        width: 22px;
+        height: 22px;
+        background: url(../images/control.png) no-repeat 0 0;
+    }
+
+    .control:hover .control__icon { background-position: 0 -22px; }
+    .control:active .control__icon { background-position: 0 -44px; }
+    .control__input:checked + .control__icon { background-position: 0 -66px; }
+    .control:hover .control__input:checked + .control__icon { background-position: 0 -88px; }
+    .control:active .control__input:checked + .control__icon { background-position: 0 -110px; }
+
+
+label.control {
+    cursor: pointer;
+}
