@@ -19,8 +19,12 @@
                 width: auto;
             }
     
+            .form__body__row__item_small-width {
+                width: 248px;
+            }
+
             .form__body__row__item_middle-width {
-                width: 359px;
+                width: 358px;
             }
     
         .form__body__row:first-child {
