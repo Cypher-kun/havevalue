@@ -1,21 +1,21 @@
-.news {
+.article {
 
 }
-    .news__header {
+    .article__header {
 
     }
-        .news__header__date {
+        .article__header__date {
 
         }
 
-        .news__header__title {
+        .article__header__title {
             margin: 3px 0 0;
         }
 
-    .news__body {
+    .article__body {
         margin: 20px 0 0;
     }
-        .news__body__featured-image {
+        .article__body__featured-image {
             float: left;
             max-width: 284px;
             margin: 6px 20px 10px 0;
@@ -25,29 +25,29 @@
 
         }
 
-    .news__footer {
+    .article__footer {
         margin: 15px 0 0;
     }
-        .news__footer__source {
+        .article__footer__source {
 
         }
 
-        .news__footer__likes {
+        .article__footer__likes {
             margin: 15px 0 0;
         }
 
 
 /* _feed-item */
 
-.news_feed-item {
+.article_feed-item {
 
 }
 
-.news_feed-item .news__body {
+.article_feed-item .article__body {
     margin-top: 12px;
 }
 
-.news_feed-item .news__body__featured-image {
+.article_feed-item .article__body__featured-image {
     max-width: 116px;
     margin-right: 20px;
 }
