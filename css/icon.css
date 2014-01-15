@@ -55,18 +55,21 @@
     width: 58px;
     height: 58px;
     background: url(../images/icon_facebook.png) no-repeat;
+    border-radius: 50%;
 }
 
 .icon_vkontakte {
     width: 58px;
     height: 58px;
     background: url(../images/icon_vkontakte.png) no-repeat;
+    border-radius: 50%;
 }
 
 .icon_twitter {
     width: 58px;
     height: 58px;
     background: url(../images/icon_twitter.png) no-repeat;
+    border-radius: 50%;
 }
 
 .icon_visa {

@@ -46,7 +46,7 @@
             width: 430px;
         }
         .index__info__column:first-child {
-            margin: 0 69px 0 0;
+            margin-right: 64px;
         }
 
             .index__info__column__item {
