@@ -56,3 +56,7 @@
 .body_newsfeed .body__content {
     margin-top: 18px;
 }
+
+.body__content:first-child {
+    margin-top: 0;
+}

@@ -16,3 +16,11 @@
     .feed__pagination {
         margin: 54px 0 0;
     }
+
+.feed_preview .feed__list__item {
+    margin-top: 26px;
+}
+
+.feed_preview .feed__list__item:first-child {
+    margin-top: 0;
+}

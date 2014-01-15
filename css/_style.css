@@ -25,6 +25,10 @@
 @import url(user.css);
 @import url(auth.css);
 @import url(likes.css);
+@import url(graph.css);
+@import url(calc.css);
+@import url(social.css);
+@import url(payment.css);
 @import url(featured-image.css);
 @import url(article.css);
 @import url(feed.css);
@@ -34,11 +38,10 @@
 @import url(index.css);
 @import url(contacts.css);
 @import url(sidebar.css);
-/*@import url(content.css);*/
+@import url(content.css);
 @import url(header.css);
 @import url(footer.css);
 @import url(body.css);
-/*@import url(region.css);*/
 @import url(page.css);
 
 @import url(_print.css);

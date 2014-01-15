@@ -9,7 +9,7 @@
         }
 
         .article__header__title {
-            margin: 3px 0 0;
+            margin: 1px 0 0;
         }
 
     .article__body {
@@ -50,4 +50,14 @@
 .article_feed-item .article__body__featured-image {
     max-width: 116px;
     margin-right: 20px;
+}
+
+/* _preview */
+
+.article_preview .article__header__title {
+    margin-top: 3px;
+}
+
+.article_preview .article__body {
+    margin-top: 2px;
 }

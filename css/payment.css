@@ -1,0 +1,12 @@
+.payment {
+
+}
+    .payment__item {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0 0 0 8px;
+    }
+
+    .payment__item:first-child {
+        margin-left: 0;
+    }

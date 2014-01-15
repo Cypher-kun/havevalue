@@ -25,3 +25,12 @@
 .button:active {
     background: red;
 }
+
+.button_high {
+    height: 52px;
+    font-size: 16px;
+}
+.button_high:hover,
+.button_high:active {
+    background: #a2bc64;
+}

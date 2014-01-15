@@ -4,8 +4,26 @@
     line-height: 20px;
     color: #2a2929;
 }
+    .title__icon {
+        position: absolute;
+        left: 0;
+        top: -5px;
+    }
+    .title__details {
+        display: inline-block;
+        vertical-align: baseline;
+        margin: 0 0 0 23px;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 16px;
+    }
 
 .title_small {
     font-size: 14px;
-    line-height: 17px;
+    line-height: 22px;
+}
+
+.title_iconed {
+    padding-left: 34px;
+    position: relative;
 }

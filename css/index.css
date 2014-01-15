@@ -1,3 +1,58 @@
 .index {
 
 }
+    .index__rate {
+
+    }
+        .index__rate__head {
+
+        }
+
+        .index__rate__body {
+            margin: 37px 0 0;
+        }
+
+    .index__calc {
+        margin: 68px 0 0;
+    }
+
+        .index__calc__head {
+
+        }
+
+            .index__calc__head__title {
+
+            }
+
+            .index__calc__head__note {
+                margin: 12px 0 0;
+                color: #353535;
+            }
+
+        .index__calc__body {
+            margin: 21px 0 0;
+            padding: 0 83px;
+        }
+
+    .index__info {
+        margin: 89px 0 0;
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+        .index__info__column {
+            display: inline-block;
+            vertical-align: top;
+            width: 430px;
+        }
+        .index__info__column:first-child {
+            margin: 0 69px 0 0;
+        }
+
+            .index__info__column__item {
+                margin: 46px 0 0;
+            }
+
+            .index__info__column__item:first-child {
+                margin-top: 0;
+            }

@@ -1,12 +1,12 @@
 .content {
 
 }
-    .content__title {
+    .content__head {
 
     }
 
     .content__body {
-        margin: 20px 0 0;
+        margin: 21px 0 0;
     }
 
     .content__body:first-child {

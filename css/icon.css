@@ -69,6 +69,18 @@
     background: url(../images/icon_twitter.png) no-repeat;
 }
 
+.icon_visa {
+    width: 42px;
+    height: 25px;
+    background: url(../images/icon_visa.png) no-repeat;
+}
+
+.icon_mastercard {
+    width: 42px;
+    height: 25px;
+    background: url(../images/icon_mastercard.png) no-repeat;
+}
+
 .icon_arrow-left {
     width: 26px;
     height: 26px;

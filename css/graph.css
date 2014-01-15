@@ -1,0 +1,8 @@
+.graph {
+    text-align: center;
+}
+    .graph__body {
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+    }
