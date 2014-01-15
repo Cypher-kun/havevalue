@@ -7,7 +7,7 @@
         -webkit-box-sizing: border-box;
                 box-sizing: border-box;
         display: inline-block;
-        vertical-align: middle;
+        vertical-align: top;
         width: 359px;
         height: 43px;
         padding: 0 20px;
@@ -15,6 +15,14 @@
         border-radius: 8px;
         font-size: 13px;
         color: #333;
+    }
+
+    .field__input:hover {
+        border-color: blue;
+    }
+
+    .field__input:focus {
+        border-color: red;
     }
 /*
     textarea.field__input {
