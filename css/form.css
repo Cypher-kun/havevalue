@@ -1,0 +1,15 @@
+.form {
+
+}
+    .form__row {
+        margin: 26px 0 0;
+    }
+
+    .form__row_centered-field {
+        width: 359px;
+        margin: 0 auto;
+    }
+
+    .form__row:first-child {
+        margin-top: 0;
+    }

@@ -6,6 +6,7 @@
 @import url(icon.css);
 @import url(button.css);
 @import url(field.css);
+@import url(form.css);
 @import url(link.css);
 @import url(time.css);
 @import url(title.css);
@@ -25,6 +26,7 @@
 @import url(article.css);
 @import url(feed.css);
 @import url(body-head.css);
+@import url(signup.css);
 @import url(sidebar.css);
 /*@import url(content.css);*/
 @import url(header.css);
