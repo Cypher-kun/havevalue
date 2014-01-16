@@ -1,28 +1,33 @@
 .table {
-    width: 100%;
-    color: #7d7d7d;
-/*
-    border-collapse: separate; // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)
-    border-spacing: 1px;       // to separate cells by free space (but here goes extra pixel between thead and tbody - can be removed by removing this tags)
-*/
+    color: #434242;
 }
 
-.table td,
-.table th {
-    padding: 5px 10px 3px;
-    border: 1px solid #fff;
-}
+    .table__body {
 
-.table th {
-    background: #d5e1ee;
-    text-align: center;
-    color: #333;
-}
+    }
 
-.table td {
-    background: #f4f4f4;
-}
+        .table__body__row {
 
-.table tr:nth-child(odd) td {
-    background: #f8f8f8;
-}
+        }
+
+        .table__body__row:nth-child(odd) {
+            background-color: #daedf8;
+        }
+
+            .table__body__row__cell {
+                padding: 4px 16px 7px;
+            }
+
+            .table__body__row__cell_stat-title {
+               text-align: left;
+            }
+
+            .table__body__row__cell_stat-title-group {
+                color: #3582b0;
+                font-weight: bold;
+            }
+
+            .table__body__row__cell_stat-value {
+                text-align: right;
+                font-weight: bold;
+            }
