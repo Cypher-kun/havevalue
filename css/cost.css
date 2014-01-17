@@ -2,6 +2,11 @@
     display: inline;
 }
 
+    .cost__currency {
+        display: inline;
+        margin-left: 4px;
+        color: #413f3f;
+    }
 .cost_blue {
     color: #4e9fcf;
 }
@@ -15,8 +20,6 @@
     color: #b9e781;
 }
 
-    .cost__currency {
-        display: inline;
-        margin-left: 4px;
-        color: #413f3f;
-    }
+.cost_bold {
+    font-weight: bold;
+}

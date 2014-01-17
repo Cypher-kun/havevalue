@@ -166,25 +166,364 @@
 
                         <div class="body__content">
 
-                            <div class="body__content__sidebar">
-
-                                <div class="sidebar">
-                                    <div class="sidebar__item">
-                                        Sidebar item
-                                    </div>
-                                    <div class="sidebar__item">
-                                        Sidebar item
+                            <div class="stats">
+                                <div class="stats__rate">
+                                    <div class="stats__rate__body">
+                                        <table class="tiles">
+                                            <tbody class="tiles__body">
+                                                <tr class="tiles__body__row">
+                                                    <td class="tiles__body__row__cell tiles__body__row__cell_left">
+                                                        <div class="exchange">
+                                                            <div class="exchange__currency">RUB / USD</div><!--
+                                                         --><div class="exchange__rate">0.02941</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="tiles__body__row__cell tiles__body__row__cell_right">
+                                                        <div class="exchange">
+                                                            <div class="exchange__currency">BTC / USD</div><!--
+                                                         --><div class="exchange__rate">829.517</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="tiles__body__row">
+                                                    <td class="tiles__body__row__cell tiles__body__row__cell_left">
+                                                        <div class="exchange">
+                                                            <div class="exchange__currency">USD / RUB</div><!--
+                                                         --><div class="exchange__rate">31.5</div>
+                                                        </div>
+                                                    </td>
+                                                    <td class="tiles__body__row__cell tiles__body__row__cell_right">
+                                                        <div class="exchange">
+                                                            <div class="exchange__currency">USD / BTC</div><!--
+                                                         --><div class="exchange__rate">0.00106</div>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
                                     </div>
                                 </div>
+                                <div class="stats__body">
+                                    <div class="stats__body__sidebar">
+                                        <div class="stats__body__sidebar__item">
+                                            TODO: .switcher
+                                        </div>
+                                        <div class="stats__body__sidebar__item">
+                                            <div class="data-table-rounder">
+                                                <table class="data-table">
+                                                    <thead class="data-table__head">
+                                                    <tr class="data-table__head__row">
+                                                        <th class="data-table__head__row__cell">
+                                                            BITSTAMP
+                                                        </th>
+                                                        <th class="data-table__head__row__cell data-table__head__row__cell_price">
+                                                            <div class="cost cost_green cost_large cost_bold">830.11</div>
+                                                        </th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody class="data-table__body">
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            high
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">907.70</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            low
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">826.46</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            avg
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">878.90</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            vol 24h
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">11,332,374 <div class="cost__currency">USD</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="stats__body__sidebar__item">
+                                            <div class="data-table-rounder">
+                                                <table class="data-table">
+                                                    <thead class="data-table__head">
+                                                    <tr class="data-table__head__row">
+                                                        <th class="data-table__head__row__cell">
+                                                            BITSTAMP
+                                                        </th>
+                                                        <th class="data-table__head__row__cell data-table__head__row__cell_price">
+                                                            <div class="cost cost_green cost_large cost_bold">830.11</div>
+                                                        </th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody class="data-table__body">
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            high
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">907.70</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            low
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">826.46</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            avg
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">878.90</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            vol 24h
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">11,332,374 <div class="cost__currency">USD</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                        <div class="stats__body__sidebar__item">
+                                            <div class="data-table-rounder">
+                                                <table class="data-table">
+                                                    <thead class="data-table__head">
+                                                    <tr class="data-table__head__row">
+                                                        <th class="data-table__head__row__cell">
+                                                            BITSTAMP
+                                                        </th>
+                                                        <th class="data-table__head__row__cell data-table__head__row__cell_price">
+                                                            <div class="cost cost_green cost_large cost_bold">830.11</div>
+                                                        </th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody class="data-table__body">
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            high
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">907.70</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            low
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">826.46</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            avg
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">878.90</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="data-table__body__row">
+                                                        <td class="data-table__body__row__cell">
+                                                            vol 24h
+                                                        </td>
+                                                        <td class="data-table__body__row__cell data-table__body__row__cell_price">
+                                                            <div class="cost cost_blue">11,332,374 <div class="cost__currency">USD</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div><!--
+                                 --><div class="stats__body__content">
+                                        <div class="table-rounder">
+                                            <table class="table">
+                                                <tbody class="table__body">
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Блоков добыто
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">192.00</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Время между блоками
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            7.50 (минут)
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Биткойнов добыто
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">4,800<div class="cost__currency">BTC</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Всего шахтерские сборы
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">11.63240672<div class="cost__currency">BTC</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Количество транзакций
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            51970
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Общий объем выходов
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">409,961.4392958<div class="cost__currency">BTC</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Предполагаемый объем транзакций
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">84,680.52151473<div class="cost__currency">BTC</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Предполагаемый объем транзакций (USD)
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">84,021,872.18<div class="cost__currency">USD</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td colspan="2" class="table__body__row__cell table__body__row__cell_group-title">
+                                                            Общий обзор рынка
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Рыночная цена
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">$992.22<div class="cost__currency">USD</div></div> (взвешенная)
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Торговый оборот
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">$8,441,742.39<div class="cost__currency">USD</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Торговый оборот
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">8,507.92<div class="cost__currency">BTC</div></div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Стоимость добычи
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
 
-                            </div><!--
-                         --><div class="body__content__main">
-                                <div class="stats">
-                                    hello stat
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Общий доход шахтеров
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">$4,773,579.80</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            %, Полученные от сделки сборов
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            0.24%
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            % от объема транзакций
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            5.68 %
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Цена за транзакцию
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            <div class="cost">$91.85</div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td colspan="2" class="table__body__row__cell table__body__row__cell_group-title">
+                                                            Скорость хеширования и потребления электроэнергии
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Сложность
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            1,418,481,395.26
+                                                        </td>
+                                                    </tr>
+                                                    <tr class="table__body__row">
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-title">
+                                                            Мощность хеширования
+                                                        </td>
+                                                        <td class="table__body__row__cell table__body__row__cell_stat-value">
+                                                            13,538,513.78 GH/s
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div><!-- /page__container__body -->
 

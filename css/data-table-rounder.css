@@ -1,0 +1,7 @@
+.data-table-rounder {
+    border: 1px solid #4e9fcf;
+    border-radius: 3px;
+}
+    .data-table-rounder .data-table {
+        border: none;
+    }

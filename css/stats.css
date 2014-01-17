@@ -1,0 +1,35 @@
+.stats {
+
+}
+    .stats__rate {
+        text-align: right;
+    }
+        .stats__rate__body {
+            display: inline-block;
+            vertical-align: top;
+            text-align: left;
+        }
+
+    .stats__body {
+        margin: 40px 0 0;
+    }
+
+        .stats__body__sidebar {
+            display: inline-block;
+            vertical-align: top;
+            width: 213px;
+        }
+            .stats__body__sidebar__item {
+                margin: 33px 0 0;
+            }
+
+            .stats__body__sidebar__item:first-child {
+                margin-top: 0;
+            }
+
+        .stats__body__content {
+            display: inline-block;
+            vertical-align: top;
+            width: 674px;
+            margin: 0 0 0 45px;
+        }

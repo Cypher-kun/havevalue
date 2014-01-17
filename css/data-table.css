@@ -18,7 +18,7 @@
         }
 
             .data-table__head__row__cell {
-                padding: 6px 10px 7px;
+                padding: 8px 10px 10px;
             }
 
             .data-table__head__row__cell_price {
@@ -40,3 +40,11 @@
             .data-table__body__row__cell_price {
                 text-align: right;
             }
+
+        .data-table__body__row:first-child .data-table__body__row__cell {
+            padding-top: 6px;
+        }
+
+        .data-table__body__row:last-child .data-table__body__row__cell {
+            padding-bottom: 6px;
+        }

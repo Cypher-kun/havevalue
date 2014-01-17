@@ -1,0 +1,21 @@
+.tiles {
+
+}
+    .tiles__body {
+
+    }
+
+        .tiles__body__row {
+
+        }
+            .tiles__body__row__cell {
+                padding: 0 22px;
+            }
+
+            .tiles__body__row__cell_left {
+                text-align: right;
+            }
+
+            .tiles__body__row__cell_right {
+
+            }

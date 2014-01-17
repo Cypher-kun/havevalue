@@ -1,0 +1,14 @@
+.exchange {
+    display: inline;
+}
+    .exchange__currency {
+        display: inline;
+        color: #414141;
+    }
+
+    .exchange__rate {
+        display: inline;
+        margin: 0 0 0 4px;
+        font-weight: bold;
+        color: #a2bc64;
+    }

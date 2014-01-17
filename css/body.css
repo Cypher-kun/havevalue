@@ -14,19 +14,6 @@
         min-height: 250px;
     }
 
-        .body__content__sidebar {
-            display: inline-block;
-            vertical-align: top;
-            width: 213px;
-            margin: 0 45px 0 0;
-        }
-
-        .body__content__main {
-            display: inline-block;
-            vertical-align: top;
-            width: 674px;
-        }
-
 
 .body_signup .body__content {
     margin-top: 49px;
@@ -65,6 +52,6 @@
         margin-top: 0;
     }
 
-.body_stats {
-
+.body_stats .body__content {
+    margin-top: -48px;
 }
