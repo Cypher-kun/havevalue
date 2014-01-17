@@ -1,0 +1,33 @@
+.switcher {
+    table-layout: fixed;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: #a2bc64;
+}
+    .switcher__body {
+
+    }
+        .switcher__body__row {
+
+        }
+            .switcher__body__row__cell {
+                padding: 0;
+                border: 2px solid #a2bc64;
+            }
+
+                .switcher__body__row__cell__link {
+                    display: block;
+                    padding: 4px;
+                }
+
+                .switcher__body__row__cell__link_active {
+                    background: #a2bc64;
+                    color: #fff;
+                    cursor: default;
+                }
+
+                .switcher__body__row__cell__link:hover {
+                    background: #a2bc64;
+                    color: #fff;
+                }
