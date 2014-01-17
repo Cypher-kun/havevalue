@@ -34,7 +34,11 @@
 
         }
 
-        .pagination__item__link_active,
+        .pagination__item__link_active {
+            color: #4e9fcf;
+            cursor: default;
+        }
+
         .pagination__item__link:hover {
             color: #4e9fcf;
         }

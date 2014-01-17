@@ -17,7 +17,10 @@
             display: block;
         }
 
-        .nav__item__link_active,
+        .nav__item__link_active {
+            color: #4e9fcf;
+            cursor: default;
+        }
         .nav__item__link:hover {
             color: #4e9fcf;
         }
