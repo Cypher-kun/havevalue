@@ -23,7 +23,11 @@
             cursor: default;
         }
 
-        .lang__item__link_active,
+        .lang__item__link_active {
+            color: #fff;
+            cursor: default;
+        }
+
         .lang__item__link:hover {
             color: #fff;
         }
