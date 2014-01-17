@@ -1,0 +1,42 @@
+.data-table {
+   border: 1px solid #4e9fcf;
+   font-size: 11px;
+   line-height: 14px;
+   vertical-align: middle;
+}
+
+    .data-table__head {
+        color: #fff;
+        background-color: #4e9fcf;
+        text-align: left;
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+        .data-table__head__row {
+
+        }
+
+            .data-table__head__row__cell {
+                padding: 6px 10px 7px;
+            }
+
+            .data-table__head__row__cell_price {
+                text-align: right;
+            }
+
+    .data-table__body {
+
+    }
+
+        .data-table__body__row {
+
+        }
+
+            .data-table__body__row__cell {
+                padding: 2px 10px 2px;
+            }
+
+            .data-table__body__row__cell_price {
+                text-align: right;
+            }

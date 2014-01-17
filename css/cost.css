@@ -1,0 +1,22 @@
+.cost {
+    display: inline;
+}
+
+.cost_blue {
+    color: #4e9fcf;
+}
+
+.cost_large {
+    font-size: 15px;
+    line-height: 17px;
+}
+
+.cost_green {
+    color: #b9e781;
+}
+
+    .cost__currency {
+        display: inline;
+        margin-left: 4px;
+        color: #413f3f;
+    }
