@@ -40,7 +40,6 @@
     padding-left: 44px;
     padding-right: 44px;
 }
-
     .body_contacts .body__content {
         margin-top: 33px;
     }
@@ -57,6 +56,11 @@
     margin-top: 18px;
 }
 
-.body__content:first-child {
-    margin-top: 0;
+
+.body_profile .body__content {
+    margin-top: -19px;
 }
+
+    .body__content:first-child {
+        margin-top: 0;
+    }

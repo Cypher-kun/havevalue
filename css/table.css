@@ -15,6 +15,13 @@
                 padding: 4px 16px 13px;
             }
 
+
+            /* Profile table HEAD modifiers */
+
+            .table__head__row__cell_index { width: 87px; }
+            .table__head__row__cell_quantity { width: 140px; }
+            .table__head__row__cell_payment-system { width: 277px; }
+
     .table__body {
 
     }
@@ -31,6 +38,8 @@
                 padding: 4px 16px 7px;
             }
 
+
+            /* Stats table */
             .table__body__row__cell_group-title {
                 color: #3582b0;
                 font-weight: bold;
