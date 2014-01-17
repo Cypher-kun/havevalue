@@ -11,6 +11,10 @@
 
         }
 
+        .user__name__link:hover {
+            color: #fff;
+        }
+
     .user__logout {
         margin: 5px 0 0;
         font-weight: bold;
