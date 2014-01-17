@@ -4,6 +4,7 @@
     font-weight: bold;
     font-size: 15px;
     color: #a2bc64;
+    background: #a2bc64;
 }
     .switcher__body {
 
@@ -18,6 +19,7 @@
 
                 .switcher__body__row__cell__link {
                     display: block;
+                    background: #fff;
                     padding: 4px;
                 }
 
