@@ -1,0 +1,13 @@
+.fieldset {
+
+}
+
+    .fieldset__label {
+        margin: 0 0 6px;
+        font-size: 13px;
+        padding: 0 20px;
+    }
+
+    .fieldset__fields {
+
+    }

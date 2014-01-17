@@ -1,6 +1,7 @@
 .button {
     outline: none;
     -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
             box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
@@ -26,10 +27,11 @@
     background: red;
 }
 
-.button_high {
+.button_large {
     height: 52px;
     font-size: 16px;
 }
+
 .button_high:hover,
 .button_high:active {
     background: #a2bc64;

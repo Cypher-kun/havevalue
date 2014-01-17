@@ -582,7 +582,7 @@
                             <br>
                             <br>
 
-                            <div class="field field_full-width">
+                            <div class="field">
                                 <input class="field__input" type="text" placeholder="Placeholder">
                                 <div class="field__note field__note_right">Замечание к полю</div>
                             </div>
@@ -608,6 +608,25 @@
                             <br>
                             <b>Замечание:</b> За ширину .button и .field должен отвечать контектст. По этому эти блоки занимают всю допустимую ширину. А то, какую ширину им выдавать разруливает уже контест. Это может быть ширина заданная в пикслях, процентах, может быть ширина со значнием auto у инлайн-блока, чтобы сделать кнопку "по ширине текста в ней", может быть так же 100%. На первый взгляд кажется, что хотя бы уж у кнопки ширина должна быть по умолчанию "по содержимому", но это не так. Кнопка не может валяться на странице без контекста.
 
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            .fieldset
+                            <br>
+                            <br>
+
+                            <div class="fieldset">
+                                <div class="fieldset__label">Лейбл к нескольким полям</div>
+                                <div class="fieldset__fields">
+                                    .
+                                    <div class="field">
+                                        <input class="field__input" type="text" placeholder="Placeholder">
+                                    </div>
+
+                                </div>
+                            </div>
 
                             <br>
                             <br>
@@ -648,6 +667,235 @@
                             <br>Можно сделать форму таблицами, используя эти же классы, для сохранения табличной структуры
 
 
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            .col
+
+                            <br>
+                            <br>
+
+                            <div class="col">
+                                <div class="col__item">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.col__item</div>
+                                </div>
+                                <div class="col__item">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.col__item (just one more)</div>
+                                </div>
+                                <div class="col__item col__item_center">
+                                    <div style="display: inline-block; padding: 0 15px; height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.col__item.col__item_center</div>
+                                </div>
+                                <div class="col__item col__item_right">
+                                    <div style="display: inline-block; padding: 0 15px; height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.col__item.col__item_right</div>
+                                </div>
+                            </div>
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+
+                            .row
+
+                            <br>
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_12">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_12</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_11">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_11</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_10">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_10</div>
+                                </li><!--
+                              --><li class="row__item row__item_2">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">...__item_2</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_9">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_9</div>
+                                </li><!--
+                              --><li class="row__item row__item_3">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_3</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_8">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_8</div>
+                                </li><!--
+                              --><li class="row__item row__item_4">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_4</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_7">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_7</div>
+                                </li><!--
+                              --><li class="row__item row__item_5">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_5</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_6">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_6</div>
+                                </li><!--
+                              --><li class="row__item row__item_6">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_6</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_2">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">...__item_2</div>
+                                </li><!--
+                              --><li class="row__item row__item_3">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_3</div>
+                                </li><!--
+                              --><li class="row__item row__item_6">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_6</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_4">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_4</div>
+                                </li><!--
+                              --><li class="row__item row__item_4">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_4</div>
+                                </li><!--
+                              --><li class="row__item row__item_4">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_4</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_3">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_3</div>
+                                </li><!--
+                              --><li class="row__item row__item_3">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_3</div>
+                                </li><!--
+                              --><li class="row__item row__item_3">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_3</div>
+                                </li><!--
+                              --><li class="row__item row__item_3">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item.row__item_3</div>
+                                </li>
+                                </ul>
+
+                                <br>
+
+                                <ul class="row">
+                                    <li class="row__item row__item_2">
+                                        <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">...__item_2</div>
+                                    </li><!--
+                              --><li class="row__item row__item_2">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">...__item_2</div>
+                                </li><!--
+                              --><li class="row__item row__item_2">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">...__item_2</div>
+                                </li><!--
+                              --><li class="row__item row__item_2">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">...__item_2</div>
+                                </li><!--
+                              --><li class="row__item row__item_2">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">...__item_2</div>
+                                </li><!--
+                              --><li class="row__item row__item_2">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">...__item_2</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li><!--
+                              --><li class="row__item row__item_1">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">_1</div>
+                                </li>
+                            </ul>
+
+                            <br>
+
+                            <ul class="row">
+                                <li class="row__item">
+                                    <div style="height: 30px; line-height: 30px; text-align: center; background: purple; color: #fff">.row__item (без модификатора ширина по ширине контента)</div>
+                                </li>
+                            </ul>
+                            
+                            
                             <br>
                             <br>
                             <br>
