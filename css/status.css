@@ -1,0 +1,7 @@
+.status {
+    display: inline;
+}
+
+.status_in-progress {
+    color: #7dcd48;
+}

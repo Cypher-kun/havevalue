@@ -31,24 +31,16 @@
                 padding: 4px 16px 7px;
             }
 
-            .table__body__row__cell_stat-title {
-               text-align: left;
-            }
-
-            .table__body__row__cell_stat-title-group {
+            .table__body__row__cell_group-title {
                 color: #3582b0;
                 font-weight: bold;
+            }
+
+            .table__body__row__cell_stat-title {
+
             }
 
             .table__body__row__cell_stat-value {
                 text-align: right;
                 font-weight: bold;
-            }
-
-            .table__body__row__cell_stat {
-                text-align: left;
-            }
-
-            .table__body__row__cell_stat-status {
-                color: #7dcd48;
             }
