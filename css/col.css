@@ -13,6 +13,10 @@
         text-align: right;
     }
 
-    .col__item:first-child {
-        margin-top: 0;
+    .col_sparse .col__item {
+        margin-top: 46px;
     }
+
+.col__item:first-child {
+    margin-top: 0;
+}

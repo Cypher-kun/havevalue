@@ -1,0 +1,32 @@
+.range {
+    position: relative;
+    width: 14px;
+    height: 20px;
+}
+    .range__control {
+        width: 14px;
+        height: 10px;
+        cursor: pointer;
+        position: absolute;
+        left: 0;
+    }
+
+        .range__control__icon {
+            width: 0;
+            height: 0;
+            border-left: 4px solid transparent;
+            border-right: 4px solid transparent;
+            position: absolute;
+            left: 3px;
+            top: 3px;
+        }
+
+        .range__control_increase .range__control__icon { border-bottom: 4px solid #fff; }
+        .range__control_decrease .range__control__icon { border-top: 4px solid #fff; }
+        .range__control_increase:hover .range__control__icon { border-bottom-color: blue; }
+        .range__control_decrease:hover .range__control__icon { border-top-color: blue; }
+        .range__control_increase:active .range__control__icon { border-bottom-color: red; }
+        .range__control_decrease:active .range__control__icon { border-top-color: red; }
+
+    .range__control_increase { top: 0; }
+    .range__control_decrease { bottom: 0; }

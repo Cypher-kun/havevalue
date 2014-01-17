@@ -1,5 +1,5 @@
 .row {
-    /*margin: 0 -20px;*/
+
 }
     .row__item {
         -webkit-box-sizing: border-box;
@@ -9,7 +9,6 @@
         vertical-align: top;
         width: auto;
         text-align: left;
-        /*padding: 0 20px;*/
     }
 
     .row__item_12 { width: 100%; }
@@ -27,8 +26,16 @@
 
     .row__item_middle-width { width: 358px; }
     .row__item_small-width { width: 248px; }
+    .row__item_smaller-width { width: 214px; }
 
+
+.row_small-padding { margin: 0 -13px; }
+.row_small-padding .row__item { padding: 0 13px; }
+
+.row_large-padding { margin: 0 -40px; }
+.row_large-padding .row__item { padding: 0 40px; }
 
 .row_center {
     text-align: center;
 }
+

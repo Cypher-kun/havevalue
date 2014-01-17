@@ -39,20 +39,3 @@
         font-size: 13px;
         line-height: 18px;
     }
-
-        .index__info__column {
-            display: inline-block;
-            vertical-align: top;
-            width: 430px;
-        }
-        .index__info__column:first-child {
-            margin-right: 64px;
-        }
-
-            .index__info__column__item {
-                margin: 46px 0 0;
-            }
-
-            .index__info__column__item:first-child {
-                margin-top: 0;
-            }
