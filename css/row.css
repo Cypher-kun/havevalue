@@ -1,5 +1,5 @@
 .row {
-    margin: -10px -20px;
+    /*margin: 0 -20px;*/
 }
     .row__item {
         -webkit-box-sizing: border-box;
@@ -8,7 +8,8 @@
         display: inline-block;
         vertical-align: top;
         width: auto;
-        padding: 10px 20px;
+        text-align: left;
+        /*padding: 0 20px;*/
     }
 
     .row__item_12 { width: 100%; }
@@ -24,4 +25,10 @@
     .row__item_2 { width: 16.666666666666664%; }
     .row__item_1 { width: 8.333333333333332%; }
 
+    .row__item_middle-width { width: 358px; }
+    .row__item_small-width { width: 248px; }
 
+
+.row_center {
+    text-align: center;
+}
