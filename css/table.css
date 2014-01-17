@@ -2,6 +2,19 @@
     color: #434242;
 }
 
+    .table__head {
+        color: #7d7d7d;
+        text-align: left;
+    }
+
+        .table__head__row {
+
+        }
+
+            .table__head__row__cell {
+                padding: 4px 16px 13px;
+            }
+
     .table__body {
 
     }
@@ -30,4 +43,12 @@
             .table__body__row__cell_stat-value {
                 text-align: right;
                 font-weight: bold;
+            }
+
+            .table__body__row__cell_stat {
+                text-align: left;
+            }
+
+            .table__body__row__cell_stat-status {
+                color: #7dcd48;
             }
