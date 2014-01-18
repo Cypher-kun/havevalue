@@ -138,13 +138,15 @@
 
                             <div class="signup">
                                 <div class="signup__form">
-                                    <form action="signup_validate.html">
+                                    <form>
                                         <ul class="col">
                                             <li class="col__item">
                                                 <div class="row row_center">
                                                     <div class="row__item row__item_middle-width">
-                                                        <div class="field">
+                                                        <div class="field field_error">
                                                             <input class="field__input" type="text" placeholder="Имя">
+                                                            <div class="field__error-output">Вы не ввели свое Имя!</div>
+                                                            <i class="field__error-icon"></i>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -152,8 +154,10 @@
                                             <li class="col__item">
                                                 <div class="row row_center">
                                                     <div class="row__item row__item_middle-width">
-                                                        <div class="field">
+                                                        <div class="field field_error">
                                                             <input class="field__input" type="text" placeholder="Фамилия">
+                                                            <div class="field__error-output">Вы не ввели свою Фамилию!</div>
+                                                            <i class="field__error-icon"></i>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -161,8 +165,10 @@
                                             <li class="col__item">
                                                 <div class="row row_center">
                                                     <div class="row__item row__item_middle-width">
-                                                        <div class="field">
+                                                        <div class="field field_error">
                                                             <input class="field__input" type="email" placeholder="Почта">
+                                                            <div class="field__error-output">Введен недопустимый e-mail!</div>
+                                                            <i class="field__error-icon"></i>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -170,8 +176,10 @@
                                             <li class="col__item">
                                                 <div class="row row_center">
                                                     <div class="row__item row__item_middle-width">
-                                                        <div class="field">
+                                                        <div class="field field_error">
                                                             <input class="field__input" type="password" placeholder="Пароль">
+                                                            <div class="field__error-output">Вы не ввели пароль</div>
+                                                            <i class="field__error-icon"></i>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -185,6 +193,7 @@
                                                          --><span class="control__label">Я даю свое согласие на принятие условий</span>
                                                         </label>
                                                         <a class="link" href="#">договора оферты</a>
+                                                        <div class="control__error-output">Необходимо принять условия договора оферты!</div>
                                                     </div>
                                                 </div>
                                             </li>

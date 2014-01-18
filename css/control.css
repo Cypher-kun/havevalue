@@ -27,6 +27,15 @@
     .control:hover .control__input:checked + .control__icon { background-position: 0 -88px; }
     .control:active .control__input:checked + .control__icon { background-position: 0 -110px; }
 
+    .control__error-output {
+        padding-left: 20px;
+        padding-right: 20px;
+        margin: 6px 0 0;
+        font-size: 11px;
+        line-height: 13px;
+        color: #ea500d;
+        text-align: center;
+    }
 
 label.control {
     cursor: pointer;
