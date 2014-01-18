@@ -17,6 +17,10 @@
         margin-top: 46px;
     }
 
+.col__item_larger-push {
+    margin-top: 51px;
+}
+
 .col__item:first-child {
     margin-top: 0;
 }
