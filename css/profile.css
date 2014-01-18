@@ -20,7 +20,7 @@
             .profile__tabs__item__link:hover {
                 color: #434749;
             }
-            
+
             .profile__tabs__item__link_active {
                 color: #434749;
                 cursor: default;
