@@ -6,6 +6,11 @@
 
     }
 
+    .body-head__note {
+        margin: 5px 0 0;
+        color: #979898;
+    }
+
     .body-head__breadcrumbs {
         margin: 12px 0 0;
     }
