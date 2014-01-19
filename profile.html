@@ -139,7 +139,10 @@
                                         <div class="profile__tabs__item__link profile__tabs__item__link_active" data-page=".profile__pages__item_request">Заявки</div>
                                     </li><!--
                                  --><li class="profile__tabs__item">
-                                        <div class="profile__tabs__item__link" data-page=".profile__pages__item_settings">Сменить пароль</div>
+                                        <div class="profile__tabs__item__link" data-page=".profile__pages__item_settings">Настройки</div>
+                                    </li><!--
+                                 --><li class="profile__tabs__item">
+                                        <div class="profile__tabs__item__link" data-page=".profile__pages__item_info">Информация</div>
                                     </li>
                                 </ul>
                                 <div class="profile__pages">
@@ -242,36 +245,95 @@
                                     </div>
 
                                     <div class="profile__pages__item profile__pages__item_settings" style="display: none;">
-                                        <div class="change-password">
-                                            <form>
-                                                <ul class="col">
-                                                    <li class="col__item">
-                                                        <div class="row row_center">
-                                                            <div class="row__item row__item_middle-width">
-                                                                <div class="field">
-                                                                    <input class="field__input" type="password" placeholder="Старый пароль">
+                                        <div class="settings">
+                                            <div class="settings__column settings__column_left">
+                                                <div class="settings__column__body">
+                                                    <form>
+                                                        <ul class="col">
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="title title_small">Сменить пароль</div>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="col__item">
-                                                        <div class="row row_center">
-                                                            <div class="row__item row__item_middle-width">
-                                                                <div class="field">
-                                                                    <input class="field__input" type="password" placeholder="Новый пароль">
+                                                            </li>
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="field">
+                                                                            <input class="field__input" type="password" placeholder="Старый пароль">
+                                                                        </div>
+                                                                    </div>
                                                                 </div>
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                    <li class="col__item col__item_larger-push">
-                                                        <div class="row row_center">
-                                                            <div class="row__item row__item_small-width">
-                                                                <input class="button" type="submit" value="Сменить">
-                                                            </div>
-                                                        </div>
-                                                    </li>
-                                                </ul>
-                                            </form>
+                                                            </li>
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="field">
+                                                                            <input class="field__input" type="password" placeholder="Новый пароль">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item col__item_larger-push">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_small-width">
+                                                                        <input class="button" type="submit" value="Сменить">
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </form>
+                                                </div>
+                                            </div><!--
+                                         --><div class="settings__column settings__column_separator"></div><!--
+                                         --><div class="settings__column settings__column_right">
+                                                <div class="settings__column__body">
+                                                    <form>
+                                                        <ul class="col">
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="title title_small">Сменить имя и фамилию</div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="field">
+                                                                            <input class="field__input" type="text" placeholder="Имя" value="Константин">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="field">
+                                                                            <input class="field__input" type="text" placeholder="Фамилия" value="Константинопольский">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item col__item_larger-push">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_small-width">
+                                                                        <input class="button" type="submit" value="Сменить">
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <div class="profile__pages__item profile__pages__item_info" style="display: none;">
+                                        <div class="info">
+                                            hello info
                                         </div>
                                     </div>
 
