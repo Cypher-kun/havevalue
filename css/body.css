@@ -44,23 +44,26 @@
 }
 
 
-.body_profile .body__content {
-    margin-top: -19px;
-}
-
-    .body__content:first-child {
-        margin-top: 0;
-    }
 
 .body_stats .body__content {
     margin-top: -48px;
 }
 
-.body_password-reset .body__content {
-    margin-top: 41px;
+.body_confirm .body__content {
+    margin-top: 108px;
+    padding-bottom: 82px;
+}
+
+.body_terms .body__content {
+    margin-top: 39px;
+}
+
+.body_profile .body__content {
+    margin-top: -19px;
 }
 
 
-.body__content_terms {
-    margin-top: 39px;
+
+.body__content:first-child {
+    margin-top: 0;
 }

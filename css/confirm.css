@@ -1,0 +1,17 @@
+.confirm {
+    text-align: center;
+}
+    .confirm__icon {
+
+    }
+
+    .confirm__title {
+        margin: 43px 0 0;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 17px;
+    }
+
+    .confirm__note {
+        margin: 9px 0 0;
+    }
