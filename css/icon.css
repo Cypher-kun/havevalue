@@ -54,22 +54,35 @@
 .icon_facebook {
     width: 58px;
     height: 58px;
-    background: url(../images/icon_facebook.png) no-repeat;
+    background: url(../images/social.png) no-repeat left top;
     border-radius: 50%;
+}
+
+.icon_facebook:hover {
+    background-position: left bottom;
 }
 
 .icon_vkontakte {
     width: 58px;
     height: 58px;
-    background: url(../images/icon_vkontakte.png) no-repeat;
+    background: url(../images/social.png) no-repeat center top;
     border-radius: 50%;
 }
+
+.icon_vkontakte:hover {
+    background-position: center bottom;
+}
+
 
 .icon_twitter {
     width: 58px;
     height: 58px;
-    background: url(../images/icon_twitter.png) no-repeat;
+    background: url(../images/social.png) no-repeat right top;
     border-radius: 50%;
+}
+
+.icon_twitter:hover {
+    background-position: right bottom;
 }
 
 .icon_visa {
