@@ -103,6 +103,12 @@
     background: url(../images/icon_lamp.png) no-repeat;
 }
 
+.icon_letter {
+    width: 157px;
+    height: 157px;
+    background: url(../images/icon_letter.png) no-repeat;
+}
+
 .icon_arrow-left {
     width: 26px;
     height: 26px;
