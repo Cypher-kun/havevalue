@@ -8,11 +8,20 @@
         color: #4e9fcf;
     }
         .user__name__link {
-
+            color: #4e9fcf;
         }
 
         .user__name__link:hover {
-            color: #fff;
+            color: #989393;
+        }
+
+        .user__name__link_active {
+            color: #4e9fcf;
+            cursor: default;
+        }
+
+        .user__name__link_active:hover {
+            color: #4e9fcf;
         }
 
     .user__logout {
@@ -27,5 +36,5 @@
         }
 
         .user__logout__link:hover {
-            color: #4e9fcf;
+            color: #989393;
         }

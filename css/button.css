@@ -20,11 +20,12 @@
 }
 
 .button:hover {
-    background: blue;
+    background: #aecb69;
 }
 
 .button:active {
-    background: red;
+    background: #8da651;
+    border-color: #8da651;
 }
 
 .button_large {

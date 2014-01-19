@@ -149,14 +149,15 @@
                                     </div>
                                     <div class="index__calc__body">
 
-                                        <form class="calc" action="index_validate.html">
+                                        <form class="calc">
                                             <div class="calc__row">
-                                                <div class="field field_calc">
+                                                <div class="field field_calc field_error">
                                                     <div class="field__label">
                                                         <label for="temp-id">Введите ваш кошелек</label>
                                                     </div>
                                                     <input class="field__input" type="text" id="temp-id">
                                                     <div class="field__note">У вас еще нет кошелька? <a class="link link_white" href="#">Завести!</a></div>
+                                                    <div class="field__error-output">Вы не ввели свое Имя!</div>
                                                 </div>
                                             </div>
                                             <div class="calc__row">
@@ -165,7 +166,7 @@
                                                     <div class="fieldset__body">
                                                         <ul class="row row_small-padding">
                                                             <li class="row__item row__item_6">
-                                                                <div class="field field_calc field_range">
+                                                                <div class="field field_calc field_range field_error">
                                                                     <input class="field__input" type="text" value="0.12943" id="temp-id">
                                                                     <div class="field__range">
                                                                         <div class="field__range__label">BTC</div>
@@ -180,10 +181,11 @@
                                                                             </ul>
                                                                         </div>
                                                                     </div>
+                                                                    <div class="field__error-output">Вы не ввели свое Имя!</div>
                                                                 </div>
                                                             </li><!--
                                                          --><li class="row__item row__item_6">
-                                                                <div class="field field_calc field_range">
+                                                                <div class="field field_calc field_range field_error">
                                                                     <input class="field__input" type="text" value="104.84" id="temp-id">
                                                                     <div class="field__range">
                                                                         <div class="field__range__label">USD</div>
@@ -198,6 +200,7 @@
                                                                             </ul>
                                                                         </div>
                                                                     </div>
+                                                                    <div class="field__error-output">Вы не ввели свое Имя!</div>
                                                                 </div>
                                                             </li>
                                                         </ul>

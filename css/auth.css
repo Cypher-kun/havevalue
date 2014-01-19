@@ -20,11 +20,15 @@
             color: #fff;
         }
 
+        .auth__item__link:hover {
+            color: #989393;
+        }
+
         .auth__item__link_active {
             color: #4e9fcf;
             cursor: default;
         }
 
-        .auth__item__link:hover {
+        .auth__item__link_active:hover {
             color: #4e9fcf;
         }
