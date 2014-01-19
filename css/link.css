@@ -10,8 +10,11 @@
     color: #fff;
 }
 
-.link_plane {
+.link_inverted {
     color: inherit;
+}
+.link_inverted:hover {
+    color: #4e9fcf;
 }
 
 .link_lightblue {
