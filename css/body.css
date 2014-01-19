@@ -29,6 +29,7 @@
 }
     .body_contacts .body__content {
         margin-top: 33px;
+        padding-bottom: 50px;
     }
 
 .body_index .body__content {
@@ -42,8 +43,6 @@
 .body_newsfeed .body__content {
     margin-top: 18px;
 }
-
-
 
 .body_stats .body__content {
     margin-top: -48px;
