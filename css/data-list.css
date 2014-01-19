@@ -5,29 +5,28 @@
 }
 
     .data-list__item {
-        margin-top: 10px;
-
+        position: relative;
+        margin: 16px 0 0;
+        padding: 0 0 0 31px;
     }
     
     .data-list__item:first-child {
         margin-top: 0;
     }    
         .data-list__item__icon {
-            display: inline-block;
-            vertical-align: middle;
-            margin-right: 10px;
-            position: relative;
-            top: -1px;
+            position: absolute;
+            left: 0;
+            top: -3px;
         }
 
         .data-list__item__title {
             display: inline-block;
             vertical-align: middle;
+            font-weight: bold;
             margin-right: 4px;
         }
 
         .data-list__item__value {
-            font-weight: bold;
             display: inline-block;
             vertical-align: middle;
         }
