@@ -18,12 +18,16 @@
             }
 
             .profile__tabs__item__link:hover {
-                color: #434749;
+                color: #989393;
             }
 
             .profile__tabs__item__link_active {
                 color: #434749;
                 cursor: default;
+            }
+
+            .profile__tabs__item__link_active:hover {
+                color: #434749;
             }
 
     .profile__pages {
