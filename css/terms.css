@@ -1,0 +1,19 @@
+.terms {
+
+}
+    .terms__header {
+        text-align: center;
+    }
+        .terms__header__title {
+            font-size: 15px;
+            color: #434749;
+        }
+
+        .terms__header__note {
+            margin: 5px 0 0;
+            color: #979898;
+        }
+
+    .terms__body {
+        margin: 41px 0 0;
+    }

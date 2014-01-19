@@ -55,21 +55,21 @@
     font-weight: bold;
     font-size: 18px;
     line-height: 20px;
-    margin: 1.5em 0 0;
+    margin: 30px 0 0;
 }
 
 .wysiwyg h3 {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 18px;
-    margin: 2em 0 0;
+    margin: 27px 0 29px;
 }
 
 .wysiwyg h4 {
     font-weight: bold;
-    font-size: 12px;
-    line-height: 14px;
-    margin: 2em 0 0;
+    font-size: 13px;
+    line-height: 15px;
+    margin: 23px 0 13px;
 }
 
 .wysiwyg h2:first-child,
