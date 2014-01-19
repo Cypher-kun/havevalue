@@ -1,14 +1,24 @@
 .range {
     position: relative;
-    width: 14px;
-    height: 20px;
+    width: 21px;
+    height: 41px;
+    border-right: 1px solid #3f759f;
+    background: #4d86b2;
 }
     .range__control {
-        width: 14px;
-        height: 10px;
+        width: 21px;
+        height: 20px;
         cursor: pointer;
         position: absolute;
         left: 0;
+    }
+
+    .range__control:hover {
+        background: #5b96c3;
+    }
+
+    .range__control:active {
+        background: #38698f;
     }
 
         .range__control__icon {
@@ -17,16 +27,22 @@
             border-left: 4px solid transparent;
             border-right: 4px solid transparent;
             position: absolute;
-            left: 3px;
-            top: 3px;
+            left: 7px;
+            top: 9px;
         }
 
-        .range__control_increase .range__control__icon { border-bottom: 4px solid #fff; }
-        .range__control_decrease .range__control__icon { border-top: 4px solid #fff; }
-        .range__control_increase:hover .range__control__icon { border-bottom-color: blue; }
-        .range__control_decrease:hover .range__control__icon { border-top-color: blue; }
-        .range__control_increase:active .range__control__icon { border-bottom-color: red; }
-        .range__control_decrease:active .range__control__icon { border-top-color: red; }
+        .range__control_increase .range__control__icon {
+            border-bottom: 4px solid #fff;
+        }
+        .range__control_decrease .range__control__icon {
+            border-top: 4px solid #fff;
+        }
 
-    .range__control_increase { top: 0; }
-    .range__control_decrease { bottom: 0; }
+    .range__control_increase {
+        top: 0;
+    }
+
+    .range__control_decrease {
+        border-top: 1px solid #3f759f;
+        bottom: 0;
+    }

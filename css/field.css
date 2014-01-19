@@ -81,9 +81,10 @@
         right: 0;
         bottom: 0;
         height: 32px;
-        width: 36px;
+        width: 41px;
         padding: 9px 0 0 21px;
         border-radius: 0 7px 7px 0;
+        text-align: center;
     }
 
         .field__range__label {
@@ -93,8 +94,8 @@
 
         .field__range__control {
             position: absolute;
-            left: 3px;
-            top: 11px;
+            left: 0;
+            top: 0;
         }
 
 
