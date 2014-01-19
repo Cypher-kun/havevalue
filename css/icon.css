@@ -84,6 +84,12 @@
     background: url(../images/icon_mastercard.png) no-repeat;
 }
 
+.icon_lamp {
+    width: 157px;
+    height: 157px;
+    background: url(../images/icon_lamp.png) no-repeat;
+}
+
 .icon_arrow-left {
     width: 26px;
     height: 26px;
