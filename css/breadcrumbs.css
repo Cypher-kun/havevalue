@@ -27,6 +27,10 @@
                 top: 1px
             }
 
+        .breadcrumbs__item__link:hover {
+            text-decoration: underline;
+        }
+
         .breadcrumbs__item__separator {
             cursor: default;
         }
