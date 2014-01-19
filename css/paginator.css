@@ -34,12 +34,15 @@
 
         }
 
+        .pagination__item__link:hover {
+            color: #989393;
+        }
+
         .pagination__item__link_active {
             color: #4e9fcf;
             cursor: default;
         }
-
-        .pagination__item__link:hover {
+        .pagination__item__link_active:hover {
             color: #4e9fcf;
         }
 
