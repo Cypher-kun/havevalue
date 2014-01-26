@@ -10,8 +10,10 @@
 
     .footer__terms {
         position: absolute;
-        top: 13px;
-        right: 250px;
+        top: 18px;
+        right: 276px;
+        font-size: 11px;
+        line-height: 14px;
     }
 
     .footer__langs {

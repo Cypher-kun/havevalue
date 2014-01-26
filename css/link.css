@@ -31,3 +31,7 @@
 .link_bold {
     font-weight: bold;
 }
+
+.link_darker {
+    color: #828282;
+}
