@@ -38,11 +38,17 @@
         top: 0;
     }
 
-        .logo__icon__hover {
-            opacity: 0;
-            background: url(../images/sprite.png) no-repeat -259px 0;
+    @media
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi){
+        .logo__icon {
+            background-image: url(../images/sprite@2x.png);
+            background-size: 309px 120px;
+
         }
+    }
 
 .logo:hover {
     opacity: .8;
 }
+

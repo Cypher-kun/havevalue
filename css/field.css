@@ -77,6 +77,16 @@
         top: 11px;
     }
 
+
+    @media
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi){
+        .field__error-icon {
+            background-image: url(../images/sprite@2x.png);
+            background-size: 309px 120px;
+        }
+    }
+
     .field__note_right {
         padding-right: 0;
         text-align: right;

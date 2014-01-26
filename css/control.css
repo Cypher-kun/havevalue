@@ -33,6 +33,16 @@
             display: none;
         }
 
+        @media
+        (-webkit-min-device-pixel-ratio: 1.5),
+        (min-resolution: 144dpi){
+            .control__icon__image {
+                background-image: url(../images/sprite@2x.png);
+                background-size: 309px 120px;
+            }
+        }
+
+
 /* icon */
     .control__icon {
         background: #fff;

@@ -18,7 +18,14 @@
         background: url(../images/sprite.png) no-repeat;
     }
 
-
+    @media
+    (-webkit-min-device-pixel-ratio: 1.5),
+    (min-resolution: 144dpi){
+        .icon-social__icon {
+            background-image: url(../images/sprite@2x.png);
+            background-size: 309px 120px;
+        }
+    }
 
 .icon-social_facebook {
     background: #496194;
