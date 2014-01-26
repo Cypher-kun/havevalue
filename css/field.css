@@ -23,6 +23,8 @@
         border-radius: 8px;
         font-size: 13px;
         color: #333;
+        -webkit-transition: background-color .3s ease;
+                transition: background-color .3s ease;
     }
 
 /*
@@ -47,9 +49,10 @@
         border-color: #43b7eb;
         background: #fff;
         box-shadow: 0 0 0 1px #43b7eb;
+        -webkit-transition: none;
+                transition: none;
     }
 
-    x
     .field__note {
         padding-left: 20px;
         padding-right: 20px;
@@ -68,7 +71,7 @@
     .field__error-icon {
         width: 21px;
         height: 21px;
-        background: url(../images/icon_exclamation-mark.png) no-repeat center center;
+        background: url(../images/sprite.png) no-repeat -171px -98px;
         position: absolute;
         right: 12px;
         top: 11px;

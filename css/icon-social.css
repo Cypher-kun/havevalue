@@ -1,0 +1,65 @@
+.icon-social {
+    display: inline-block;
+    vertical-align: top;
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    border-radius: 50%;
+    webkit-transition: background-color .3s ease;
+           transition: background-color .3s ease;
+}
+
+    .icon-social__icon {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+        background: url(../images/sprite.png) no-repeat;
+    }
+
+
+
+.icon-social_facebook {
+    background: #496194;
+}
+
+.icon-social_facebook:hover {
+    background: #6d81a9;
+}
+    .icon-social_facebook .icon-social__icon {
+        width: 13px;
+        height: 27px;
+        background-position: 0 -91px;
+    }
+
+
+
+.icon-social_vkontakte {
+    background: #6996c7;
+}
+
+.icon-social_vkontakte:hover {
+    background: #87abd2;
+}
+    .icon-social_vkontakte .icon-social__icon {
+        width: 30px;
+        height: 17px;
+        background-position: -13px -91px;
+    }
+
+
+
+.icon-social_twitter {
+    background: #28c3ff;
+}
+
+.icon-social_twitter:hover {
+    background: #53cfff;
+}
+    .icon-social_twitter .icon-social__icon {
+        width: 24px;
+        height: 20px;
+        background-position: -43px -91px;
+    }
+

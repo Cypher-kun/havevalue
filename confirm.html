@@ -58,7 +58,13 @@
                     <header class="header">
 
                         <div class="header__logo">
-                            <a class="logo" href="index.html"></a>
+                            <a class="logo" href="index.html">
+                                <div class="logo__label">
+                                    <div class="logo__label__rocket">Rocket</div><!--
+                                 --><div class="logo__label__coins">coins</div>
+                                </div>
+                                <i class="logo__icon"></i>
+                            </a>
                         </div>
 
                         <nav class="header__nav">
@@ -103,16 +109,17 @@
                         <div class="header__userspace">
                             <ul class="auth">
                                 <li class="auth__item">
-                                    <a class="auth__item__link" href="signin.html">Авторизация</a>
-                                </li><!--
-                             --><li class="auth__item">
-                                    /
-                                </li><!--
-                             --><li class="auth__item">
-                                    <a class="auth__item__link auth__item__link_active" href="signup.html">Регистрация</a>
+                                    <a class="auth__item__link" href="signin.html">
+                                        <div class="auth__item__link__icon">
+                                            <i class="icon icon_lock"></i>
+                                        </div>
+                                        Вход
+                                    </a>
+                                </li>
+                                <li class="auth__item">
+                                    <a class="auth__item__link" href="signup.html">Регистрация</a>
                                 </li>
                             </ul>
-
                         </div>
 
                     </header>
@@ -137,7 +144,11 @@
                         <div class="body__content">
 
                             <div class="confirm">
-                                <div class="confirm__icon"><i class="icon icon_lamp"></i></div>
+                                <div class="confirm__icon">
+                                    <div class="icon-confirm icon-confirm_lamp">
+                                        <i class="icon-confirm__icon"></i>
+                                    </div>
+                                </div>
                                 <div class="confirm__title">Благодарим Вас за регистрацию на сайте</div>
                                 <div class="confirm__note">Мы выслали регистрационные данные на почту <b>example@gmail.com</b></div>
                             </div>
@@ -149,9 +160,29 @@
                         <div class="body__content">
 
                             <div class="confirm">
-                                <div class="confirm__icon"><i class="icon icon_letter"></i></div>
+                                <div class="confirm__icon">
+                                    <div class="icon-confirm icon-confirm_letter">
+                                        <i class="icon-confirm__icon"></i>
+                                    </div>
+                                </div>
                                 <div class="confirm__title">Проверьте почту!</div>
                                 <div class="confirm__note">На нее был выслан сгенерированный пароль.</div>
+                            </div>
+
+                        </div>
+
+                        <br>or:<br>
+
+                        <div class="body__content">
+
+                            <div class="confirm">
+                                <div class="confirm__icon">
+                                    <div class="icon-confirm icon-confirm_check">
+                                        <i class="icon-confirm__icon"></i>
+                                    </div>
+                                </div>
+                                <div class="confirm__title">Пароль успешно изменен!</div>
+                                <div class="confirm__note">Сюда я думаю что-нибудь типа "если вам не нравится сгененрированный пароль, то пройдите в профиль в настройки и измените его</div>
                             </div>
 
                         </div>
@@ -165,6 +196,9 @@
                     <footer class="footer">
                         <div class="footer__copyright">
                             <div class="copyright">Havevalue 2014</div>
+                        </div>
+                        <div class="footer__terms">
+                            <a class="link" href="terms.html">Пользовательское соглашение</a>
                         </div>
                         <div class="footer__payment">
                             <ul class="payment">

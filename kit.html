@@ -58,7 +58,15 @@
                     <header class="header">
 
                         <div class="header__logo">
-                            <a class="logo" href="#"></a>
+                            <a class="logo" href="index.html">
+                                <div class="logo__label">
+                                    <div class="logo__label__rocket">Rocket</div><!--
+                                 --><div class="logo__label__coins">coins</div>
+                                </div>
+                                <i class="logo__icon">
+                                    <i class="logo__icon__hover"></i>
+                                </i>
+                            </a>
                         </div>
 
                         <nav class="header__nav">
@@ -77,7 +85,7 @@
                                         <div class="nav__item__link__icon">
                                             <i class="icon icon_graph"></i>
                                         </div><!--
-                                 --><div class="nav__item__link__title">Статистика</div>
+                                     --><div class="nav__item__link__title">Статистика</div>
                                     </a>
                                 </li><!--
                              --><li class="nav__item">
@@ -101,28 +109,35 @@
                         </nav>
 
                         <div class="header__userspace">
-<!--
-                            <div class="user">
-                                <div class="user__name">
-                                    <a class="user__name__link" href="#">Константин Константинопльский</a>
-                                </div>
-                                <div class="user__logout">
-                                    <a class="user__logout__link" href="#">Выйти</a>
-                                </div>
-                            </div>
--->
                             <ul class="auth">
                                 <li class="auth__item">
-                                    <a class="auth__item__link" href="#">Авторизация</a>
-                                </li><!--
-                             --><li class="auth__item">
-                                    /
-                                </li><!--
-                             --><li class="auth__item">
-                                    <a class="auth__item__link" href="#">Регистрация</a>
+                                    <a class="auth__item__link" href="signin.html">
+                                        <div class="auth__item__link__icon">
+                                            <i class="icon icon_lock"></i>
+                                        </div>
+                                        Вход
+                                    </a>
+                                </li>
+                                <li class="auth__item">
+                                    <a class="auth__item__link" href="signup.html">Регистрация</a>
                                 </li>
                             </ul>
 
+<!-- or:
+                            <div class="user">
+                                <div class="user__item">
+                                    <a class="user__item__profile" href="profile.html">
+                                        <div class="user__item__profile__icon">
+                                            <i class="icon icon_man"></i>
+                                        </div>
+                                        Профиль
+                                    </a>
+                                </div>
+                                <div class="user__item">
+                                    <a class="user__item__logout" href="#">Выйти</a>
+                                </div>
+                            </div>
+-->
                         </div>
 
                     </header>
@@ -209,15 +224,73 @@
                             <i class="icon icon_paper"></i>
                             <i class="icon icon_notebook"></i>
                             <i class="icon icon_home"></i>
+                            <i class="icon icon_lock"></i>
+                            <i class="icon icon_man"></i>
                             <i class="icon icon_geo"></i>
                             <i class="icon icon_phone"></i>
                             <i class="icon icon_at"></i>
-                            <i class="icon icon_facebook"></i>
-                            <i class="icon icon_vkontakte"></i>
-                            <i class="icon icon_twitter"></i>
-                            <i class="icon icon_arrow-left"></i>
-                            <i class="icon icon_arrow-right"></i>
+                            <i class="icon icon_visa"></i>
+                            <i class="icon icon_mastercard"></i>
 
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            .icon-social
+                            <br>
+                            <br>
+
+                            <div class="icon-social icon-social_facebook">
+                                <i class="icon-social__icon"></i>
+                            </div>
+
+                            <div class="icon-social icon-social_vkontakte">
+                                <i class="icon-social__icon"></i>
+                            </div>
+
+                            <div class="icon-social icon-social_twitter">
+                                <i class="icon-social__icon"></i>
+                            </div>
+
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            .icon-confirm
+                            <br>
+                            <br>
+
+                            <div class="icon-confirm icon-confirm_lamp">
+                                <i class="icon-confirm__icon"></i>
+                            </div>
+
+                            <div class="icon-confirm icon-confirm_letter">
+                                <i class="icon-confirm__icon"></i>
+                            </div>
+
+                            <div class="icon-confirm icon-confirm_check">
+                                <i class="icon-confirm__icon"></i>
+                            </div>
+
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            .icon-arrow
+                            <br>
+                            <br>
+
+                            <div class="icon-arrow">
+                                <div class="icon-arrow__icon">←</div>
+                            </div>
+
+                            <div class="icon-arrow">
+                                <div class="icon-arrow__icon">→</div>
+                            </div>
+
+                            <br>
+                            <br>
                             <br>
                             <br>
 
@@ -669,7 +742,13 @@
                             <br>
                             <div style="background: #323232;">
 
-                            <a class="logo" href="#"></a>
+                            <a class="logo" href="#">
+                                <div class="logo__label">
+                                    <div class="logo__label__rocket">Rocket</div><!--
+                                 --><div class="logo__label__coins">coins</div>
+                                </div>
+                                <i class="logo__icon"></i>
+                            </a>
 
                             </div>
 
@@ -726,7 +805,9 @@
 
                             <ul class="pagination">
                                 <li class="pagination__item pagination__item_prev-item">
-                                   <a href="#" class="icon icon_arrow-left"></a>
+                                    <a class="icon-arrow" href="#">
+                                        <div class="icon-arrow__icon">←</div>
+                                    </a>
                                 </li><!--
                              --><li class="pagination__item">
                                     <a class="pagination__item__link" href="#">1</a>
@@ -750,7 +831,9 @@
                                     <a class="pagination__item__link" href="#">10</a>
                                 </li><!--
                              --><li class="pagination__item pagination__item_next-item">
-                                    <a href="#" class="icon icon_arrow-right"></a>
+                                    <a class="icon-arrow" href="#">
+                                        <div class="icon-arrow__icon">→</div>
+                                    </a>
                                 </li>
                             </ul>
 
@@ -809,14 +892,16 @@
                             <div style="background: #323232;">
                                 <ul class="auth">
                                     <li class="auth__item">
-                                        <a class="auth__item__link auth__item__link_active" href="#">Авторизация</a>
-                                    </li><!--
-                             --><li class="auth__item">
-                                    /
-                                </li><!--
-                             --><li class="auth__item">
-                                    <a class="auth__item__link" href="#">Регистрация</a>
-                                </li>
+                                        <a class="auth__item__link" href="signin.html">
+                                            <div class="auth__item__link__icon">
+                                                <i class="icon icon_lock"></i>
+                                            </div>
+                                            Вход
+                                        </a>
+                                    </li>
+                                    <li class="auth__item">
+                                        <a class="auth__item__link" href="signup.html">Регистрация</a>
+                                    </li>
                                 </ul>
                             </div>
 
@@ -830,11 +915,16 @@
                             <div style="background: #323232;">
 
                             <div class="user">
-                                <div class="user__name">
-                                    <a class="user__name__link" href="#">Константин Константинопльский</a>
+                                <div class="user__item">
+                                    <a class="user__item__profile" href="#">
+                                        <div class="user__item__profile__icon">
+                                            <i class="icon icon_man"></i>
+                                        </div>
+                                        Профиль
+                                    </a>
                                 </div>
-                                <div class="user__logout">
-                                    <a class="user__logout__link" href="#">Выйти</a>
+                                <div class="user__item">
+                                    <a class="user__item__logout" href="#">Выйти</a>
                                 </div>
                             </div>
 
@@ -1074,8 +1164,8 @@
 
                             <label class="control control__input_checkbox">
                                 <input class="control__input" type="checkbox"><!--
-                             --><i class="control__icon"></i><!--
-                              --><span class="control__label">Если контрол сделать тегом label то этот текст кликабелен.</span>
+                             --><span class="control__icon"><i class="control__icon__image"></i></span><!--
+                             --><span class="control__label">Если контрол сделать тегом label то этот текст кликабелен.</span>
                             </label>
 
 
@@ -1354,6 +1444,9 @@
                     <footer class="footer">
                         <div class="footer__copyright">
                             <div class="copyright">Havevalue 2014</div>
+                        </div>
+                        <div class="footer__terms">
+                            <a class="link" href="terms.html">Пользовательское соглашение</a>
                         </div>
                         <div class="footer__payment">
                             <ul class="payment">

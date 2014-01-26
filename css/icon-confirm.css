@@ -1,0 +1,54 @@
+.icon-confirm {
+    display: inline-block;
+    vertical-align: top;
+    width: 157px;
+    height: 157px;
+    line-height: 157px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+    .icon-confirm__icon {
+        display: inline-block;
+        vertical-align: middle;
+        position: relative;
+        top: -1px;
+        background: url(../images/sprite.png) no-repeat;
+    }
+
+
+.icon-confirm_lamp {
+    background: #f1c40f;
+}
+
+.icon-confirm_lamp .icon-confirm__icon {
+    width: 92px;
+    height: 91px;
+    background-position: 0 0;
+}
+
+
+
+.icon-confirm_letter {
+    background: #99d24e;
+}
+
+.icon-confirm_letter .icon-confirm__icon {
+    width: 82px;
+    height: 65px;
+    background-position: -92px 0;
+}
+
+
+
+.icon-confirm_check {
+    background: #369ee6;
+}
+
+.icon-confirm_check .icon-confirm__icon {
+    width: 85px;
+    height: 61px;
+    background-position: -174px 0;
+}
+
+

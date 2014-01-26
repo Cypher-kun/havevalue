@@ -87,3 +87,8 @@
     float: right;
     margin: 4px 0 8px 15px;
 }
+
+.wysiwyg .without-bullets {
+    list-style: none;
+    padding-left: 0;
+}

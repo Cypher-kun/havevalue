@@ -17,6 +17,8 @@
     font-size: 13px;
     color: #fff;
     cursor: pointer;
+    -webkit-transition: background .3s ease;
+            transition: background .3s ease;
 }
 
 .button:hover {
@@ -26,6 +28,8 @@
 .button:active {
     background: #8da651;
     border-color: #8da651;
+    -webkit-transition: none;
+            transition: none;
 }
 
 .button_large {

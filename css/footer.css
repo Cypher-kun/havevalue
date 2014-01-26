@@ -8,8 +8,10 @@
         left: 5px;
     }
 
-    .footer__payment {
-
+    .footer__terms {
+        position: absolute;
+        top: 13px;
+        right: 250px;
     }
 
     .footer__langs {

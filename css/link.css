@@ -1,6 +1,11 @@
 .link {
     color: #42708c;
 }
+    .link__arrow {
+        display: inline;
+        position: relative;
+        top: -3px;
+    }
 
 .link:hover {
     text-decoration: underline;
@@ -12,6 +17,8 @@
 
 .link_inverted {
     color: inherit;
+    -webkit-transition: all .3s ease;
+            transition: all .3s ease;
 }
 .link_inverted:hover {
     color: #4e9fcf;
@@ -21,3 +28,6 @@
     color: #4b93bf;
 }
 
+.link_bold {
+    font-weight: bold;
+}

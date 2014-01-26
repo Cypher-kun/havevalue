@@ -1,40 +1,50 @@
 .user {
+    padding: 2px 0 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #fff;
     text-align: right;
 }
-    .user__name {
-        font-weight: bold;
-        font-size: 14px;
-        line-height: 16px;
-        color: #4e9fcf;
+    .user__item {
+        margin: 3px 0 0;
     }
-        .user__name__link {
-            color: #4e9fcf;
-        }
 
-        .user__name__link:hover {
+    .user__item:first-child {
+        margin-top: 0;
+    }
+        .user__item__profile {
+            position: relative;
+            -webkit-transition: color .3s ease;
+                    transition: color .3s ease;
+        }
+            .user__item__profile__icon {
+                position: absolute;
+                right: 100%;
+                top: 0;
+                padding: 0 8px 0 0;
+            }
+
+        .user__item__profile:hover {
             color: #989393;
         }
 
-        .user__name__link_active {
+        .user__item__profile_active {
             color: #4e9fcf;
             cursor: default;
         }
 
-        .user__name__link_active:hover {
+        .user__item__profile_active:hover {
             color: #4e9fcf;
         }
 
-    .user__logout {
-        margin: 5px 0 0;
-        font-weight: bold;
-        font-size: 13px;
-        line-height: 15px;
-        color: #fff;
-    }
-        .user__logout__link {
 
+        .user__item__logout {
+            font-size: 11px;
+            line-height: 13px;
+            color: #afafaf;
         }
 
-        .user__logout__link:hover {
-            color: #989393;
+        .user__item__logout:hover {
+            text-decoration: underline;
         }

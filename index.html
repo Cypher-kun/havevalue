@@ -57,9 +57,15 @@
 
                     <header class="header">
 
-                        <h1 class="header__logo">
-                            <a class="logo" href="index.html" title="Have Value"></a>
-                        </h1>
+                        <div class="header__logo">
+                            <a class="logo" href="index.html">
+                                <h1 class="logo__label">
+                                    <div class="logo__label__rocket">Rocket</div><!--
+                                 --><div class="logo__label__coins">coins</div>
+                                </h1>
+                                <i class="logo__icon"></i>
+                            </a>
+                        </div>
 
                         <nav class="header__nav">
 
@@ -103,12 +109,14 @@
                         <div class="header__userspace">
                             <ul class="auth">
                                 <li class="auth__item">
-                                    <a class="auth__item__link" href="signin.html">Авторизация</a>
-                                </li><!--
-                             --><li class="auth__item">
-                                    /
-                                </li><!--
-                             --><li class="auth__item">
+                                    <a class="auth__item__link" href="signin.html">
+                                        <div class="auth__item__link__icon">
+                                            <i class="icon icon_lock"></i>
+                                        </div>
+                                        Вход
+                                    </a>
+                                </li>
+                                <li class="auth__item">
                                     <a class="auth__item__link" href="signup.html">Регистрация</a>
                                 </li>
                             </ul>
@@ -225,10 +233,20 @@
                                                             <h2 class="title">О нас</h2>
                                                         </div>
                                                         <div class="content__body">
-                                                            <div class="wysiwyg">
+                                                            <div class="wysiwyg clearfix">
                                                                 <p><strong>Havevalue</strong> — лидер на рынке покупки и продажи криптовалют. Мы авторизованы для работы с крупнейшими мировыми торговыми площадками MtGox, BTC-e, Bitstamp. Безопасность транзакций с кредитными картами обеспечена нашим партнером Payonline.</p>
                                                             </div>
                                                         </div>
+                                                        <div class="content__body">
+                                                            <div class="wysiwyg clearfix">
+                                                                <p>
+                                                                    <a href="https://payonline.uob.com.my/payonline/Login.do">
+                                                                        <img class="left-image" src="temp/payonline.jpg" alt="" width="92" height="61">
+                                                                    </a>
+                                                                    Безопасность транзакций<br> с пластиковыми картами обеспечена<br> нашим партнером <a class="link link_inverted link_bold link_dark" href="#">Payonline</a></p>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </li>
                                                 <li class="col__item">
@@ -326,13 +344,19 @@
                                                         <div class="content__body">
                                                             <ul class="social">
                                                                 <li class="social__item">
-                                                                    <a class="icon icon_facebook" href="#"></a>
+                                                                    <a class="icon-social icon-social_facebook" href="#">
+                                                                        <i class="icon-social__icon"></i>
+                                                                    </a>
                                                                 </li><!--
                                                              --><li class="social__item">
-                                                                    <a class="icon icon_vkontakte" href="#"></a>
+                                                                    <a class="icon-social icon-social_vkontakte" href="#">
+                                                                        <i class="icon-social__icon"></i>
+                                                                    </a>
                                                                 </li><!--
                                                              --><li class="social__item">
-                                                                    <a class="icon icon_twitter" href="#"></a>
+                                                                    <a class="icon-social icon-social_twitter" href="#">
+                                                                        <i class="icon-social__icon"></i>
+                                                                    </a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -354,6 +378,9 @@
                     <footer class="footer">
                         <div class="footer__copyright">
                             <div class="copyright">Havevalue 2014</div>
+                        </div>
+                        <div class="footer__terms">
+                            <a class="link" href="terms.html">Пользовательское соглашение</a>
                         </div>
                         <div class="footer__payment">
                             <ul class="payment">

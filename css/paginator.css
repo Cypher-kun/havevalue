@@ -31,7 +31,8 @@
     }
 
         .pagination__item__link {
-
+            -webkit-transition: color .3s ease;
+                    transition: color .3s ease;
         }
 
         .pagination__item__link:hover {

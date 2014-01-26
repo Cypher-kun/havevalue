@@ -4,6 +4,9 @@
 @import url(_initialization.css);
 
 @import url(icon.css);
+@import url(icon-social.css);
+@import url(icon-arrow.css);
+@import url(icon-confirm.css);
 @import url(button.css);
 @import url(field.css);
 @import url(fieldset.css);

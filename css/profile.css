@@ -15,6 +15,8 @@
 
             .profile__tabs__item__link {
                 cursor: pointer;
+                -webkit-transition: color .3s ease;
+                        transition: color .3s ease;
             }
 
             .profile__tabs__item__link:hover {

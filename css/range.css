@@ -11,6 +11,8 @@
         cursor: pointer;
         position: absolute;
         left: 0;
+        -webkit-transition: background-color .3s ease;
+                transition: background-color .3s ease;
     }
 
     .range__control:hover {
@@ -19,6 +21,8 @@
 
     .range__control:active {
         background: #38698f;
+        -webkit-transition: none;
+                transition: none;
     }
 
         .range__control__icon {

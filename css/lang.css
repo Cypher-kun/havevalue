@@ -16,7 +16,8 @@
     }
 
         .lang__item__link {
-
+            -webkit-transition: color .3s ease;
+                    transition: color .3s ease;
         }
 
         .lang__item__separator {

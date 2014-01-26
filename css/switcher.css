@@ -21,6 +21,8 @@
                     display: block;
                     background: #fff;
                     padding: 4px;
+                    -webkit-transition: background-color .3s ease, color .3s ease;
+                            transition: background-color .3s ease, color .3s ease;
                 }
 
                 .switcher__body__row__cell__link_active {
