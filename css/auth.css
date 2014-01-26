@@ -16,13 +16,15 @@
 
         .auth__item__link {
             position: relative;
+            display: inline-block;
+            vertical-align: top;
             -webkit-transition: color .3s ease;
                     transition: color .3s ease;
         }
             .auth__item__link__icon {
                 position: absolute;
                 right: 100%;
-                top: 0;
+                top: -1px;
                 padding: 0 8px 0 0;
             }
 
