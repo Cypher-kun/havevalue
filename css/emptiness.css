@@ -1,0 +1,14 @@
+.emptiness {
+    height: 400px;
+    padding: 0 200px;
+    line-height: 400px;
+    text-align: center;
+}
+    .emptiness__label {
+        display: inline-block;
+        vertical-align: middle;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 18px;
+        color: #818587;
+    }
