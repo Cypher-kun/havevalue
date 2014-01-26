@@ -23,7 +23,7 @@
     (min-resolution: 144dpi){
         .icon-social__icon {
             background-image: url(../images/sprite@2x.png);
-            background-size: 309px 120px;
+            background-size: 309px 212px;
         }
     }
 

@@ -9,7 +9,7 @@
 (min-resolution: 144dpi){
     .icon {
         background-image: url(../images/sprite@2x.png);
-        background-size: 309px 120px;
+        background-size: 309px 212px;
     }
 }
 
@@ -84,4 +84,16 @@
     width: 42px;
     height: 25px;
     background-position: -224px -86px;
+}
+
+.icon_bitcoin-logo {
+    width: 92px;
+    height: 92px;
+    background-position: 0 -120px;
+}
+
+.icon_payonline-logo {
+    width: 92px;
+    height: 54px;
+    background-position: -92px -120px;
 }

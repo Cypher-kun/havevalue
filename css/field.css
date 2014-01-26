@@ -83,7 +83,7 @@
     (min-resolution: 144dpi){
         .field__error-icon {
             background-image: url(../images/sprite@2x.png);
-            background-size: 309px 120px;
+            background-size: 309px 212px;
         }
     }
 

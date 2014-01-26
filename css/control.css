@@ -38,7 +38,7 @@
         (min-resolution: 144dpi){
             .control__icon__image {
                 background-image: url(../images/sprite@2x.png);
-                background-size: 309px 120px;
+                background-size: 309px 212px;
             }
         }
 
