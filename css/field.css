@@ -150,9 +150,15 @@
     }
 
     .field_calc .field__error-output {
-        padding-left: 13px;
-        padding-right: 13px;
+        display: inline-block;
+        vertical-align: top;
+        min-width: 212px;
+        border-radius: 12px;
+        padding: 5px 10px;
+        margin: 7px 6px 0;
         font-size: 13px;
+        background: #ec3d26;
+        color: #fff;
     }
 
 
