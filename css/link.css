@@ -2,10 +2,18 @@
     color: #42708c;
 }
     .link__arrow {
-        display: inline;
-        position: relative;
-        top: -3px;
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 13px;
+        line-height: 14px;
     }
+
+.link_arrow {
+    position: relative;
+    padding-left: 17px;
+}
 
 .link:hover {
     text-decoration: underline;
