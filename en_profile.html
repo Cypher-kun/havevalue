@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html class="no-js" lang="ru" itemscope itemtype="http://schema.org/[%type%]" xmlns:og="http://ogp.me/ns#">
+    <head>
+
+        <meta charset="utf-8">
+
+        <meta name="viewport" content="width=device-width">
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+        <link rel="stylesheet" href="css/_style.css">
+        <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+
+        <title>[%title%]</title>
+        <meta name="description"     content="[%description%]">
+
+        <!-- schema.org (google plus) -->
+        <meta itemprop="url"         content="[%url%]">
+        <meta itemprop="image"       content="[%img%]">
+        <meta itemprop="name"        content="[%title%]">
+        <meta itemprop="description" content="[%description%]">
+
+        <!-- ogp.me (facebook & vkontakte) -->
+        <meta property="og:type"        content="article">
+        <meta property="og:url"         content="[%url%]">
+        <meta property="og:image"       content="[%img%]">
+        <meta property="og:title"       content="[%title%]">
+        <meta property="og:description" content="[%description%]">
+        <meta property="fb:app_id"      content="[%app-id%]">
+
+        <!-- twitter -->
+        <meta name="twitter:card"        content="summary">
+        <meta name="twitter:url"         content="[%url%]">
+        <meta name="twitter:image"       content="[%img%]">
+        <meta name="twitter:title"       content="[%title%]">
+        <meta name="twitter:description" content="[%description%]">
+        <meta name="twitter:site"        content="@user">
+        <meta name="twitter:creator"     content="@user">
+
+    </head>
+
+    <body>
+        <!--[if lt IE 9]>
+            <div class="ancients">
+                Вы используете устаревший браузер.
+                Для корректного функционирования этого сайта и большинства других
+                Вам необходимо <a href="http://browsehappy.com/?locale=ru_RU">обновить ваш браузер</a>.
+            </div>
+        <![endif]-->
+
+
+
+        <div class="page">
+
+
+            <div class="page__head">
+                <div class="page__head__header">
+
+                    <header class="header">
+
+                        <div class="header__logo">
+                            <a class="logo" href="en_index.html">
+                                <div class="logo__label">
+                                    <div class="logo__label__rocket">Rocket</div><!--
+                                 --><div class="logo__label__coins">coins</div>
+                                </div>
+                                <i class="logo__icon"></i>
+                            </a>
+                        </div>
+
+                        <nav class="header__nav">
+
+                            <ul class="nav">
+                                <li class="nav__item">
+                                    <a class="nav__item__link" href="en_index.html#buy">
+                                        <div class="nav__item__link__icon">
+                                            <i class="icon icon_bitcoin"></i>
+                                        </div><!--
+                                     --><div class="nav__item__link__title">Buy</div>
+                                    </a>
+                                </li><!--
+                             --><li class="nav__item">
+                                    <a class="nav__item__link" href="en_stats.html">
+                                        <div class="nav__item__link__icon">
+                                            <i class="icon icon_graph"></i>
+                                        </div><!--
+                                     --><div class="nav__item__link__title">Statistics</div>
+                                    </a>
+                                </li><!--
+                             --><li class="nav__item">
+                                    <a class="nav__item__link" href="en_newsfeed.html">
+                                        <div class="nav__item__link__icon">
+                                            <i class="icon icon_paper"></i>
+                                        </div><!--
+                                     --><div class="nav__item__link__title">News</div>
+                                    </a>
+                                </li><!--
+                             --><li class="nav__item">
+                                    <a class="nav__item__link" href="en_contacts.html">
+                                        <div class="nav__item__link__icon">
+                                            <i class="icon icon_notebook"></i>
+                                        </div><!--
+                                     --><div class="nav__item__link__title">Contacts</div>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </nav>
+
+                        <div class="header__userspace">
+                            <div class="user">
+                                <div class="user__item">
+                                    <a class="user__item__profile user__item__profile_active" href="profile.html">
+                                        <div class="user__item__profile__icon">
+                                            <i class="icon icon_man"></i>
+                                        </div>
+                                        Profile
+                                    </a>
+                                </div>
+                                <div class="user__item">
+                                    <a class="user__item__logout" href="#">Sign out</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </header>
+
+                </div><!-- /page__header  -->
+            </div><!-- /page__head -->
+
+            <div class="page__container">
+
+                <div class="page__container__body">
+                    <div class="body body_profile">
+                        <div class="body__header">
+
+
+                            <header class="body-head">
+                                <div class="body-head__title">
+                                    <h1 class="title">Dashboard</h1>
+                                </div>
+                            </header>
+                        </div>
+
+                        <div class="body__content">
+                            <div class="profile">
+                                <ul class="profile__tabs">
+                                    <li class="profile__tabs__item">
+                                        <div class="profile__tabs__item__link profile__tabs__item__link_active" data-page=".profile__pages__item_request">Requests</div>
+                                    </li><!--
+                                 --><li class="profile__tabs__item">
+                                        <div class="profile__tabs__item__link" data-page=".profile__pages__item_settings">Settings</div>
+                                    </li>
+                                </ul>
+                                <div class="profile__pages">
+                                    <div class="profile__pages__item profile__pages__item_active profile__pages__item_request">
+
+                                        <div class="rounded">
+                                            <table class="table">
+                                                <thead class="table__head">
+                                                    <tr class="table__head__row">
+                                                        <th class="table__head__row__cell table__head__row__cell_index">
+                                                            №
+                                                        </th>
+                                                        <th class="table__head__row__cell table__head__row__cell_quantity">
+                                                            Sum
+                                                        </th>
+                                                        <th class="table__head__row__cell table__head__row__cell_quantity">
+                                                            Sum
+                                                        </th>
+                                                        <th class="table__head__row__cell table__head__row__cell_payment-system">
+                                                            Payment method
+                                                        </th>
+                                                        <th class="table__head__row__cell">
+                                                            Status
+                                                        </th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="table__body">
+                                                <tr class="table__body__row">
+                                                    <td class="table__body__row__cell">
+                                                        1
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="cost">1<div class="cost__currency">BTC</div></div>
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="cost">27567.10<div class="cost__currency">РУБ</div></div>
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        Сбербанк
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="status status_in-progress">In progress</div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="table__body__row">
+                                                    <td class="table__body__row__cell">
+                                                        2
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="cost">0.1<div class="cost">BTC</div></div>
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="cost">27567.10<div class="cost__currency">РУБ</div></div>
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        ВТБ24
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="status status_in-progress">In progress</div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="table__body__row">
+                                                    <td class="table__body__row__cell">
+                                                        3
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="cost">27567.10<div class="cost__currency">РУБ</div></div>
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="cost">1<div class="cost__currency">BTC</div></div>
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        1Ngf5kDWcLYcL42akRRjR24mFvLjxxBvDJ
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="status status_in-progress">In progress</div>
+                                                    </td>
+                                                </tr>
+                                                <tr class="table__body__row">
+                                                    <td class="table__body__row__cell">
+                                                        4
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="cost">1<div class="cost__currency">BTC</div></div>
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="cost">27567.10<div class="cost__currency">РУБ</div></div>
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        Связной банк
+                                                    </td>
+                                                    <td class="table__body__row__cell">
+                                                        <div class="status status_in-progress">In progress</div>
+                                                    </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+
+                                        <br>or:</br>
+
+                                        <div class="emptiness">
+                                            <div class="emptiness__label">You don't have any requests right now</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="profile__pages__item profile__pages__item_settings" style="display: none;">
+                                        <div class="settings">
+                                            <div class="settings__column settings__column_left">
+                                                <div class="settings__column__body">
+                                                    <form>
+                                                        <ul class="col">
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="title title_small">Change password</div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="field">
+                                                                            <input class="field__input" type="password" placeholder="Old password">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="field">
+                                                                            <input class="field__input" type="password" placeholder="New password">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item col__item_larger-push">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_small-width">
+                                                                        <input class="button" type="submit" value="Change password">
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </form>
+                                                </div>
+                                            </div><!--
+                                         --><div class="settings__column settings__column_separator"></div><!--
+                                         --><div class="settings__column settings__column_right">
+                                                <div class="settings__column__body">
+                                                    <form>
+                                                        <ul class="col">
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="title title_small">Change name</div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="field">
+                                                                            <input class="field__input" type="text" placeholder="First name" value="John">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_middle-width">
+                                                                        <div class="field">
+                                                                            <input class="field__input" type="text" placeholder="Last name" value="Smith">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="col__item col__item_larger-push">
+                                                                <div class="row row_center">
+                                                                    <div class="row__item row__item_small-width">
+                                                                        <input class="button" type="submit" value="Change name">
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </form>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div><!-- /page__container__body -->
+
+
+
+                <div class="page__container__footer">
+                    <footer class="footer">
+                        <div class="footer__copyright">
+                            <div class="copyright">Rocketcoins 2014</div>
+                        </div>
+                        <div class="footer__terms">
+                            <a class="link link_white" href="en_terms.html">Terms of use</a>
+                        </div>
+                        <div class="footer__payment">
+                            <ul class="payment">
+                                <li class="payment__item">
+                                    <i class="icon icon_mastercard"></i>
+                                </li><!--
+                             --><li class="payment__item">
+                                    <i class="icon icon_visa"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__langs">
+                            <ul class="lang">
+                                <li class="lang__item">
+                                    <a class="lang__item__link" href="profile.html">RUS</a>
+                                </li><!--
+                             --><li class="lang__item">
+                                    <div class="lang__item__separator">/</div>
+                                </li><!--
+                             --><li class="lang__item">
+                                    <a class="lang__item__link lang__item__link_active" href="en_profile.html">ENG</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </footer>
+                </div><!-- /page__footer -->
+
+
+            </div><!-- /page__container-->
+
+        </div><!-- /page -->
+
+
+
+
+
+        <!-- Scripts -->
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <!--/Scripts -->
+
+
+    </body>
+</html>

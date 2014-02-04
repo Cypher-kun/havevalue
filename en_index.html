@@ -58,7 +58,7 @@
                     <header class="header">
 
                         <div class="header__logo">
-                            <a class="logo" href="index.html">
+                            <a class="logo" href="en_index.html">
                                 <h1 class="logo__label">
                                     <div class="logo__label__rocket">Rocket</div><!--
                                  --><div class="logo__label__coins">coins</div>
@@ -71,35 +71,35 @@
 
                             <ul class="nav">
                                 <li class="nav__item">
-                                    <a class="nav__item__link" href="index.html#buy">
+                                    <a class="nav__item__link" href="en_index.html#buy">
                                         <div class="nav__item__link__icon">
                                             <i class="icon icon_bitcoin"></i>
                                         </div><!--
-                                     --><div class="nav__item__link__title">Купить</div>
+                                     --><div class="nav__item__link__title">Buy</div>
                                     </a>
                                 </li><!--
                              --><li class="nav__item">
-                                    <a class="nav__item__link" href="stats.html">
+                                    <a class="nav__item__link" href="en_stats.html">
                                         <div class="nav__item__link__icon">
                                             <i class="icon icon_graph"></i>
                                         </div><!--
-                                 --><div class="nav__item__link__title">Статистика</div>
+                                 --><div class="nav__item__link__title">Statistics</div>
                                     </a>
                                 </li><!--
                              --><li class="nav__item">
-                                    <a class="nav__item__link" href="newsfeed.html">
+                                    <a class="nav__item__link" href="en_newsfeed.html">
                                         <div class="nav__item__link__icon">
                                             <i class="icon icon_paper"></i>
                                         </div><!--
-                                     --><div class="nav__item__link__title">Новости</div>
+                                     --><div class="nav__item__link__title">News</div>
                                     </a>
                                 </li><!--
                              --><li class="nav__item">
-                                    <a class="nav__item__link" href="contacts.html">
+                                    <a class="nav__item__link" href="en_contacts.html">
                                         <div class="nav__item__link__icon">
                                             <i class="icon icon_notebook"></i>
                                         </div><!--
-                                     --><div class="nav__item__link__title">Контакты</div>
+                                     --><div class="nav__item__link__title">Contacts</div>
                                     </a>
                                 </li>
                             </ul>
@@ -109,15 +109,15 @@
                         <div class="header__userspace">
                             <ul class="auth">
                                 <li class="auth__item">
-                                    <a class="auth__item__link" href="signin.html">
+                                    <a class="auth__item__link" href="en_signin.html">
                                         <div class="auth__item__link__icon">
                                             <i class="icon icon_lock"></i>
                                         </div>
-                                        Вход
+                                        Sign in
                                     </a>
                                 </li>
                                 <li class="auth__item">
-                                    <a class="auth__item__link" href="signup.html">Регистрация</a>
+                                    <a class="auth__item__link" href="en_signup.html">Sign up</a>
                                 </li>
                             </ul>
                         </div>
@@ -136,7 +136,7 @@
                             <div class="index">
                                 <div class="index__rate">
                                     <div class="index__rate__head">
-                                        <h2 class="title">Курс BitCoin / USD</h2>
+                                        <h2 class="title">BitCoin price / USD</h2>
                                     </div>
                                     <div class="index__rate__body">
                                         <div class="graph">
@@ -149,32 +149,31 @@
                                 <div class="index__calc" id="buy">
                                     <div class="index__calc__head">
                                         <div class="index__calc__head__title">
-                                            <h2 class="title">Покупка BitCoin</h2>
+                                            <h2 class="title">Buy BitCoin</h2>
                                         </div>
                                         <div class="index__calc__head__note">
-                                            Текущий курс 1 BTC = <b>$852.49</b>
+                                            Current price 1 BTC = <b>$852.49</b>
                                         </div>
                                     </div>
                                     <div class="index__calc__body">
 
-                                        <form class="calc">
+                                        <form class="calc" action="en_index_validate.html">
                                             <div class="calc__row">
-                                                <div class="field field_calc field_error">
+                                                <div class="field field_calc">
                                                     <div class="field__label">
-                                                        <label for="temp-id">Введите ваш кошелек</label>
+                                                        <label for="temp-id">Enter your wallet</label>
                                                     </div>
                                                     <input class="field__input" type="text" id="temp-id">
-                                                    <div class="field__note">У вас еще нет кошелька? <a class="link link_white" href="#">Завести!</a></div>
-                                                    <div class="field__error-output">Вы не правильно ввели кошелек!</div>
+                                                    <div class="field__note">You don't have wallet yet? <a class="link link_white" href="#">Create wallet</a></div>
                                                 </div>
                                             </div>
                                             <div class="calc__row">
                                                 <div class="fieldset fieldset_calc">
-                                                    <div class="fieldset__label">Выберите количество</div>
+                                                    <div class="fieldset__label">Enter amount</div>
                                                     <div class="fieldset__body">
                                                         <ul class="row row_small-padding">
                                                             <li class="row__item row__item_6">
-                                                                <div class="field field_calc field_range field_error">
+                                                                <div class="field field_calc field_range">
                                                                     <input class="field__input" type="text" value="0.12943" id="temp-id">
                                                                     <div class="field__range">
                                                                         <div class="field__range__control">
@@ -189,11 +188,10 @@
                                                                         </div>
                                                                         <div class="field__range__label">BTC</div>
                                                                     </div>
-                                                                    <div class="field__error-output">Вы не правильно ввели число!</div>
                                                                 </div>
                                                             </li><!--
                                                          --><li class="row__item row__item_6">
-                                                                <div class="field field_calc field_range field_error">
+                                                                <div class="field field_calc field_range">
                                                                     <input class="field__input" type="text" value="104.84" id="temp-id">
                                                                     <div class="field__range">
                                                                         <div class="field__range__control">
@@ -208,7 +206,6 @@
                                                                         </div>
                                                                         <div class="field__range__label">USD</div>
                                                                     </div>
-                                                                    <div class="field__error-output">Вы не правильно ввели число!</div>
                                                                 </div>
                                                             </li>
                                                         </ul>
@@ -218,7 +215,7 @@
                                             <div class="calc__row calc__row_submit">
                                                 <div class="row row_center">
                                                     <div class="row__item row__item_smaller-width">
-                                                        <input class="button button_large" type="submit" value="Приобрести">
+                                                        <input class="button button_large" type="submit" value="Buy">
                                                     </div>
                                                 </div>
                                             </div>
@@ -233,23 +230,40 @@
                                                 <li class="col__item">
                                                     <div class="content">
                                                         <div class="content__head">
-                                                            <h2 class="title">О нас</h2>
+                                                            <h2 class="title">About</h2>
                                                         </div>
                                                         <div class="content__body">
-                                                            <div class="wysiwyg">
-                                                                <p><strong>Havevalue</strong> — лидер на рынке покупки и продажи криптовалют. Мы авторизованы для работы с крупнейшими мировыми торговыми площадками MtGox, BTC-e, Bitstamp. Безопасность транзакций с кредитными картами обеспечена нашим партнером Payonline.</p>
+                                                            <div class="wysiwyg clearfix">
+                                                                <p><strong>Rocketcoins</strong> — лидер на рынке покупки и продажи криптовалют. Мы авторизованы для работы с крупнейшими мировыми торговыми площадками MtGox, BTC-e, Bitstamp. Безопасность транзакций с кредитными картами обеспечена нашим партнером Payonline.</p>
                                                             </div>
                                                         </div>
+                                                        <div class="content__body">
+                                                            <div class="wysiwyg clearfix">
+                                                                <p>
+                                                                    <a href="https://payonline.uob.com.my/payonline/Login.do">
+                                                                        <div class="left-image">
+                                                                            <i class="icon icon_payonline-logo"></i>
+                                                                        </div>
+                                                                    </a>
+                                                                    Безопасность транзакций<br> с пластиковыми картами обеспечена<br> нашим партнером <a class="link link_inverted link_bold link_dark" href="#">Payonline</a></p>
+                                                            </div>
+                                                        </div>
+
                                                     </div>
                                                 </li>
                                                 <li class="col__item">
                                                     <div class="content">
                                                         <div class="content__head">
-                                                            <h2 class="title">Что такое “BitCoin”?</h2>
+                                                            <h2 class="title">What is “BitCoin”?</h2>
                                                         </div>
                                                         <div class="content__body">
                                                             <div class="wysiwyg clearfix">
-                                                                <p><img class="left-image" src="temp/featured-image4_small.jpg" alt="" width="92" height="92"> Bitcoin (от англ. bit — единица информации «бит», англ. coin — «монета») — пиринговая электронная платёжная система, использующая одноимённые единицы для учёта. На собственном сайте Bitcoin характеризуются как «цифровая валюта». В официальных отчётах Всемирного банка, ЕЦБ и ФБР — «виртуальная валюта». По классификации комиссии по финансовым преступлениям при министерстве финансов США Bitcoin относят к «децентрализованным виртуальным валютам». Часто bitcoin называют «криптовалютой». Министерство финансов ФРГ считает bitcoin вариантом частных денег, которые могут быть использованы для «многосторонних клиринговых операций». Сингапурские налоговые органы считают bitcoin товаром и приравнивают его покупку и продажу к продаже программного обеспечения или музыки.</p>
+                                                                <p>
+                                                                    <div class="left-image">
+                                                                        <i class="icon icon_bitcoin-logo"></i>
+                                                                    </div>
+                                                                    Bitcoin (от англ. bit — единица информации «бит», англ. coin — «монета») — пиринговая электронная платёжная система, использующая одноимённые единицы для учёта. На собственном сайте Bitcoin характеризуются как «цифровая валюта». В официальных отчётах Всемирного банка, ЕЦБ и ФБР — «виртуальная валюта». По классификации комиссии по финансовым преступлениям при министерстве финансов США Bitcoin относят к «децентрализованным виртуальным валютам». Часто bitcoin называют «криптовалютой». Министерство финансов ФРГ считает bitcoin вариантом частных денег, которые могут быть использованы для «многосторонних клиринговых операций». Сингапурские налоговые органы считают bitcoin товаром и приравнивают его покупку и продажу к продаже программного обеспечения или музыки.
+                                                                </p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -264,8 +278,8 @@
                                                         <div class="content__head">
                                                             <h2 class="title title_iconed">
                                                                 <div class="title__icon"><i class="icon icon_paper"></i></div><!--
-                                                             -->Новости<!--
-                                                             --><div class="title__details"><a class="link" href="newsfeed.html">Все новости</a></div>
+                                                             -->News<!--
+                                                             --><div class="title__details"><a class="link" href="en_newsfeed.html">All news</a></div>
                                                             </h2>
                                                         </div>
                                                         <div class="content__body">
@@ -276,16 +290,16 @@
                                                                         <article class="article article_preview">
                                                                             <header class="article__header">
                                                                                 <div class="article__header__date">
-                                                                                    <time class="time" pubdate datetime="2013-12-31">31 декабря 2013</time>
+                                                                                    <time class="time" pubdate datetime="2013-12-31">December 31, 2013</time>
                                                                                 </div>
                                                                                 <div class="article__header__title">
                                                                                     <h2 class="title title_small">
-                                                                                        <a class="link link_inverted" href="news.html">Zynga играет с Биткойном</a>
+                                                                                        <a class="link link_inverted" href="en_news.html">Zynga играет с Биткойном</a>
                                                                                     </h2>
                                                                                 </div>
                                                                             </header>
                                                                             <div class="article__body">
-                                                                                <a class="link" href="article.html">Читать</a>
+                                                                                <a class="link" href="article.html">Continue reading</a>
                                                                             </div>
                                                                         </article>
                                                                     </li>
@@ -293,7 +307,7 @@
                                                                         <article class="article article_preview">
                                                                             <header class="article__header">
                                                                                 <div class="article__header__date">
-                                                                                    <time class="time" pubdate datetime="2013-12-31">31 декабря 2013</time>
+                                                                                    <time class="time" pubdate datetime="2013-12-31">December 31, 2013</time>
                                                                                 </div>
                                                                                 <div class="article__header__title">
                                                                                     <h2 class="title title_small">
@@ -302,7 +316,7 @@
                                                                                 </div>
                                                                             </header>
                                                                             <div class="article__body">
-                                                                                <a class="link" href="article.html">Читать</a>
+                                                                                <a class="link" href="article.html">Continue reading</a>
                                                                             </div>
                                                                         </article>
                                                                     </li>
@@ -310,16 +324,16 @@
                                                                         <article class="article article_preview">
                                                                             <header class="article__header">
                                                                                 <div class="article__header__date">
-                                                                                    <time class="time" pubdate datetime="2013-12-31">31 декабря 2013</time>
+                                                                                    <time class="time" pubdate datetime="2013-12-31">December 31, 2013</time>
                                                                                 </div>
                                                                                 <div class="article__header__title">
                                                                                     <h2 class="title title_small">
-                                                                                        <a class="link link_inverted" href="news.html">На эти 9500 процентов и живем. Биткоин уверенно занял место самой прибыльной валюты</a>
+                                                                                        <a class="link link_inverted" href="en_news.html">На эти 9500 процентов и живем. Биткоин уверенно занял место самой прибыльной валюты</a>
                                                                                     </h2>
                                                                                 </div>
                                                                             </header>
                                                                             <div class="article__body">
-                                                                                <a class="link" href="article.html">Читать</a>
+                                                                                <a class="link" href="article.html">Continue reading</a>
                                                                             </div>
                                                                         </article>
                                                                     </li>
@@ -332,7 +346,7 @@
                                                 <li class="col__item">
                                                     <div class="content">
                                                         <div class="content__head">
-                                                            <h2 class="title">Расскажите о нас друзьям!</h2>
+                                                            <h2 class="title">Tell your friends about us!</h2>
                                                         </div>
                                                         <div class="content__body">
                                                             <ul class="social">
@@ -370,10 +384,10 @@
                 <div class="page__container__footer">
                     <footer class="footer">
                         <div class="footer__copyright">
-                            <div class="copyright">Havevalue 2014</div>
+                            <div class="copyright">Rocketcoins 2014</div>
                         </div>
                         <div class="footer__terms">
-                            <a class="link link_white" href="terms.html">Пользовательское соглашение</a>
+                            <a class="link link_white" href="en_terms.html">Terms of use</a>
                         </div>
                         <div class="footer__payment">
                             <ul class="payment">
@@ -388,13 +402,13 @@
                         <div class="footer__langs">
                             <ul class="lang">
                                 <li class="lang__item">
-                                    <a class="lang__item__link lang__item__link_active" href="index_validate.html">RUS</a>
+                                    <a class="lang__item__link" href="index.html">RUS</a>
                                 </li><!--
                              --><li class="lang__item">
                                     <div class="lang__item__separator">/</div>
                                 </li><!--
                              --><li class="lang__item">
-                                    <a class="lang__item__link" href="en_index_validate.html">ENG</a>
+                                    <a class="lang__item__link lang__item__link_active" href="en_index.html">ENG</a>
                                 </li>
                             </ul>
                         </div>
