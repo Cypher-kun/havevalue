@@ -1,23 +1,102 @@
 {
     "buy": "Buy",
     "stats": "Statistics",
-    "news": "News"
+    "news": "News",
+    "contacts": "Contacts",
+    "profile": "Profile",
+    "signOut": "Sign out",
+    "signIn": "Sign in",
+    "signUp": "Sign up",
+    "home": "Home",
+    "terms": "Terms of use",
+
+    "address": "Address",
+    "phone": "Phone",
+    "email": "E-mail",
+
+    "read": "Continue reading",
+    "auth": "Sign in",
+    "pass": "Password",
+    "forgetPass": "Forgot password?",
+    "enter": "Sign in",
+    "signUpNew": "Sign up",
+    "name": "First name",
+    "lastName": "Last Name",
+    "agree": "I agree to the Terms of use",
+    "termsAgree": "You need to agree to the Terms of use",
+
+    "passReset": "Password reset",
+    "enterEmail": "Enter your e-mail address below and we'll send you new password.",
+    "submit": "Submit"
+
+    "congrats": "Сongratulations!",
+    "thanks": "Thank you for registering",
+    "emailSend": "An e-mail has been sent to your registered email address",
+    "emailCheck": "Check your e-mail",
+    "emailPassSend": "An e-mail with new password has been sent to your registered email address",
+    "passChange": "Your password has been changed",
+
+    "dashboard": "Dashboard",
+    "request": "Requests",
+    "settings": "Settings",
+    "sum": "Sum",
+    "pay": "Payment method",
+    "status": "Status",
+    "progress": "In progress",
+    "requestNow": "You don't have any requests right now",
+    "passChange": "Change password",
+    "oldPass": "Old password",
+    "newPass": "New password",
+    "change": "Submit",
+
+    "price": "BitCoin price",
+    "buyBitcoin": "Buy",
+    "currentPrice": "Current price",
+    "enterWallet": "Enter your wallet",
+    "noWallet": "You don't have wallet yet?",
+    "walletCreate": "Create wallet",
+    "enterAmount": "Enter amount",
+    "getBitcoin": "Buy",
+    "about": "About",
+    "whatIs": "What is “BitCoin”?",
+    "allNews": "All news",
+    "tell": "Tell your friends about us",
+
+    "blocksMined": "Blocks mined",
+    "timeBetween": "Time between blocks",
+    "minute": "minutes",
+    "bitcoinesMined": "BitCoins mined",
+    "totalFees": "Total transaction fees",
+    "transactionSum": "No. of transactions",
+    "totalVolume": "Total output volume",
+    "estimateVolume": "Estimated transaction volume",
+    "estimateUsdVolume": "Estimated transaction volume (USD)",
+    "marketSummary": "Market Summary",
+    "marketPrice": "Market price",
+    "weighted": "weighted",
+    "tradeVolume": "Trade volume",
+    "miningCost": "Mining cost",
+    "totalRevenue": "Total miners revenue",
+    "percentEarned": "% earned from transaction fees",
+    "percentVolume": "% of transaction volume",
+    "hashRateElectricity": "Hash rate and electricity consumption",
+    "difficulty": "Difficulty",
+    "hashRate": "Hash rate",
+
+    "jan": "January",
+    "feb": "February",
+    "mar": "March",
+    "apr": "April",
+    "may": "May",
+    "jun": "June",
+    "jul": "July",
+    "sep": "September",
+    "oct": "October",
+    "nov": "November",
+    "dec": "December",
 
 }
 
-
-Контакты Contacts
-Профиль Profile
-Выйти Sign out
-Вход Sing in
-Регистрация Sign up
-Главная Home
-Пользовательское соглашение Terms of use
-
-
-Адрес Address
-Телефон Phone
-Почта E-mail
 
 %d Января %y     January %d, %y
 %d Февраля %y    February %d, %y
@@ -31,76 +110,3 @@
 %d Октября %y    October %d, %y
 %d Ноября %y     November %d, %y
 %d Декабря %y    December %d, %y
-
-Читать Continue reading
-Авторизация Sign in
-Пароль Password
-Забыли пароль? Forgot password?
-Войти Sign in
-Регистрация нового пользователя Sign up
-Имя First name
-Фамилия Last name
-Я даю свое согласие на принятие условий договора оферты I agree to the Terms of use
-Обязательное поле This value is required
-Необходимо принять условия договора оферты!  You need to agree to the Terms of use
-
-Восстановление забытого пароля Password reset
-Введите вашу почту. На нее будет отправлен новый сгенерированный пароль. Enter your e-mail address below and we'll send you new password.
-Отправить Submit
-
-Поздравялем! Сongratulations!
-Благодарим Вас за регистрацию на сайте   Thank you for registering
-Мы выслали регистрационные данные на почту    An e-mail has been sent to your registered email address
-Проверьте почту! Check your e-mail!
-На нее был выслан сгенерированный пароль. An e-mail with new password has been sent to your registered email address
-Пароль успешно изменен! Your password has been changed!
-
-Личный кабинет Dashboard
-Заявки Requests
-Настойки Settings
-Кол-во Sum
-Способ оплаты Payment method
-Статус Status
-В процессе In progress
-В данный момент у вас нет заявок на исполнение!  You don't have any requests right now
-Сменить пароль Change password
-Старый пароль Old password
-Новый пароль New password
-Сменить (пароль)  Change password
-Сменить (имя)  Change name
-
-Курс BitCoin BitCoin price
-Покупка Buy
-Текущий курс Current price
-Введите ваш кошелек Enter your wallet
-У вас еще нет кошелька? You don't have wallet yet?
-Завести! Create wallet
-Выберите количество Enter amount
-Приобрести Buy
-О нас About
-Что такое “BitCoin”?  What is “BitCoin”?
-Все новости All news
-Расскажите о нас друзьям! Tell your friends about us!
-
-Блоков добыто    Blocks mined
-Время между блоками Time between blocks
-минут minutes
-Биткойнов добыто BitCoins mined
-Всего шахтерские сборы Total transaction fees
-Количество транзакций No. of transactions
-Общий объем выходов Total output volume
-Предполагаемый объем транзакций  Estimated transaction volume
-Предполагаемый объем транзакций (USD)    Estimated transaction volume (USD)
-Общий обзор рынка Market summary
-Рыночная цена Market price
-взвешенная weighted
-Торговый оборот Trade volume
-Стоимость добычи Mining cost
-Общий доход шахтеров Total miners revenue
-%, Полученные от сделки сборов % earned from transaction fees
-% от объема транзакций % of transaction volume
-Цена за транзакцию Cost per transaction
-Скорость хеширования и потребления электроэнергии Hash rate and electricity consumption
-Сложность Difficulty
-Мощность хеширования Hash rate
-

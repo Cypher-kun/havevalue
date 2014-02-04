@@ -1,22 +1,101 @@
 {
     "buy": "Купить",
     "stats": "Статистика",
-    "news": "Новости"
+    "news": "Новости",
+    "contacts": "Контакты",
+    "profile": "Профиль"
+    "signOut": "Выйти",
+    "signIn": "Вход",
+    "signUp": "Регистрация",
+    "home": "Главная",
+    "terms": "Пользовательское соглашение",
+
+    "address": "Адрес",
+    "phone": "Телефон",
+    "email": "E-mail",
+
+    "read": "Continue reading",
+    "auth": "Авторизация",
+    "pass": "Пароль",
+    "forgetPass": "Забыли пароль",
+    "enter": "Войти",
+    "signUpNew": "Регистрация нового пользователя",
+    "name": "Имя",
+    "lastName": "Фамилия",
+    "agree": "Я даю свое согласие на принятие условий договора оферты",
+    "termsAgree": "Необходимо принять условия договора оферты!",
+
+    "passReset": "Восстановление забытого пароля",
+    "enterEmail": "Введите вашу почту. На нее будет отправлен новый сгенерированный пароль.",
+    "submit": "Отправить",
+
+    "congrats": "Поздравялем!",
+    "thanks": "Благодарим Вас за регистрацию на сайте",
+    "emailSend": "Мы выслали регистрационные данные на почту",
+    "emailCheck": "Проверьте почту!",
+    "emailPassSend": "На нее был выслан сгенерированный пароль.",
+    "passChange": "Пароль успешно изменен!",
+
+    "dashboard": "Личный кабинет",
+    "request": "Заявки",
+    "settings": "Настройки",
+    "sum": "Кол-во",
+    "pay": "Способ оплаты",
+    "status": "Статус",
+    "progress": "В процессе",
+    "requestNow": "В данный момент у вас нет заявок на исполнение!",
+    "passChange": "Сменить пароль",
+    "oldPass": "Старый пароль",
+    "newPass": "Новый пароль",
+    "change": "Сменить",
+
+    "price": "Курс",
+    "buyBitcoin": "Покупка",
+    "currentPrice": "Текущий курс",
+    "enterWallet": "Введите ваш кошелек",
+    "noWallet": "У вас еще нет кошелька?",
+    "walletCreate": "Завести!",
+    "enterAmount": "Выберите количество",
+    "getBitcoin": "Приобрести",
+    "about": "О нас",
+    "whatIs": "Что такое “BitCoin”?",
+    "allNews": "Все новости",
+    "tell": "Расскажите о нас друзьям!",
+
+    "blocksMined": "Блоков добыто",
+    "timeBetween": "Время между блоками",
+    "minute": "минут",
+    "bitcoinesMined": "Биткойнов добыто",
+    "totalFees": "Всего шахтерские сборы",
+    "transactionSum": "Количество транзакций",
+    "totalVolume": "Общий объем выходов",
+    "estimateVolume": "Предполагаемый объем транзакций",
+    "estimateUsdVolume": "Предполагаемый объем транзакций (USD)",
+    "marketSummary": "Общий обзор рынка",
+    "marketPrice": "Рыночная цена",
+    "weighted": "взвешенная",
+    "tradeVolume": "Торговый оборот",
+    "miningCost": "Стоимость добычи",
+    "totalRevenue": "Общий доход шахтеров",
+    "percentEarned": "%, Полученные от сделки сборов",
+    "percentVolume": "% % от объема транзакций",
+    "hashRateElectricity": "Скорость хеширования и потребления электроэнергии",
+    "difficulty": "Сложность",
+    "hashRate": "Мощность хеширования",
+
+    "jan": "Январь",
+    "feb": "Февраль",
+    "mar": "Март",
+    "apr": "Апрель",
+    "may": "Май",
+    "jun": "Июнь",
+    "jul": "Июль",
+    "sep": "Сентябрь",
+    "oct": "Октябрь",
+    "nov": "Ноябрь",
+    "dec": "Декабрь",
 }
 
-
-Контакты Contacts
-Профиль Profile
-Выйти Sign out
-Вход Sing in
-Регистрация Sign up
-Главная Home
-Пользовательское соглашение Terms of use
-
-
-Адрес Address
-Телефон Phone
-Почта E-mail
 
 %d Января %y     January %d, %y
 %d Февраля %y    February %d, %y
@@ -30,75 +109,3 @@
 %d Октября %y    October %d, %y
 %d Ноября %y     November %d, %y
 %d Декабря %y    December %d, %y
-
-Читать Continue reading
-Авторизация Sign in
-Пароль Password
-Забыли пароль? Forgot password?
-Войти Sign in
-Регистрация нового пользователя Sign up
-Имя First name
-Фамилия Last name
-Я даю свое согласие на принятие условий договора оферты I agree to the Terms of use
-Обязательное поле This value is required
-Необходимо принять условия договора оферты!  You need to agree to the Terms of use
-
-Восстановление забытого пароля Password reset
-Введите вашу почту. На нее будет отправлен новый сгенерированный пароль. Enter your e-mail address below and we'll send you new password.
-Отправить Submit
-
-Поздравялем! Сongratulations!
-Благодарим Вас за регистрацию на сайте   Thank you for registering
-Мы выслали регистрационные данные на почту    An e-mail has been sent to your registered email address
-Проверьте почту! Check your e-mail!
-На нее был выслан сгенерированный пароль. An e-mail with new password has been sent to your registered email address
-Пароль успешно изменен! Your password has been changed!
-
-Личный кабинет Dashboard
-Заявки Requests
-Настойки Settings
-Кол-во Sum
-Способ оплаты Payment method
-Статус Status
-В процессе In progress
-В данный момент у вас нет заявок на исполнение!  You don't have any requests right now
-Сменить пароль Change password
-Старый пароль Old password
-Новый пароль New password
-Сменить (пароль)  Change password
-Сменить (имя)  Change name
-
-Курс BitCoin BitCoin price
-Покупка Buy
-Текущий курс Current price
-Введите ваш кошелек Enter your wallet
-У вас еще нет кошелька? You don't have wallet yet?
-Завести! Create wallet
-Выберите количество Enter amount
-Приобрести Buy
-О нас About
-Что такое “BitCoin”?  What is “BitCoin”?
-Все новости All news
-Расскажите о нас друзьям! Tell your friends about us!
-
-Блоков добыто    Blocks mined
-Время между блоками Time between blocks
-минут minutes
-Биткойнов добыто BitCoins mined
-Всего шахтерские сборы Total transaction fees
-Количество транзакций No. of transactions
-Общий объем выходов Total output volume
-Предполагаемый объем транзакций  Estimated transaction volume
-Предполагаемый объем транзакций (USD)    Estimated transaction volume (USD)
-Общий обзор рынка Market summary
-Рыночная цена Market price
-взвешенная weighted
-Торговый оборот Trade volume
-Стоимость добычи Mining cost
-Общий доход шахтеров Total miners revenue
-%, Полученные от сделки сборов % earned from transaction fees
-% от объема транзакций % of transaction volume
-Цена за транзакцию Cost per transaction
-Скорость хеширования и потребления электроэнергии Hash rate and electricity consumption
-Сложность Difficulty
-Мощность хеширования Hash rate
