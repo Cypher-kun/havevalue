@@ -1,6 +1,11 @@
-Купить Buy
-Статистика Statistics
-Новости News
+{
+    "buy": "Buy",
+    "stats": "Statistics",
+    "news": "News"
+
+}
+
+
 Контакты Contacts
 Профиль Profile
 Выйти Sign out
@@ -98,3 +103,4 @@
 Скорость хеширования и потребления электроэнергии Hash rate and electricity consumption
 Сложность Difficulty
 Мощность хеширования Hash rate
+
