@@ -21,13 +21,20 @@
             vertical-align: top;
             width: 213px;
         }
-            .stats__body__sidebar__item {
-                margin: 33px 0 0;
+            .stats__body__sidebar__switcher {
+
             }
 
-            .stats__body__sidebar__item:first-child {
-                margin-top: 0;
+            .stats__body__sidebar__content {
+                margin: 33px 0 0;
+                position: relative;
             }
+                .stats__body__sidebar__content__item {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    right: 0;
+                }
 
         .stats__body__content {
             display: inline-block;
