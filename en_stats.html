@@ -907,15 +907,15 @@
 
         <script>
             $(document).on('ready', function(){
-                $('.switcher__body__row__cell__link').on('click', function(){
+                $('.switcher__body__row__cell__link').on('click', function(event){
+                    event.preventDefault();
                     $('.switcher__body__row__cell__link').removeClass('switcher__body__row__cell__link_active');
                     $(this).addClass('switcher__body__row__cell__link_active');
-
                     $('.stats__body__sidebar__content__item').fadeOut();
                     $( $(this).data('tab') ).fadeIn();
                 });
             });
         </script>
-    
+
     </body>
 </html>
